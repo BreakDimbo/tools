@@ -12,7 +12,7 @@ KEYWORD << 'dragon'
 KEYWORD << 'tiger'
 KEYWORD << 'rabbit'
 KEYWORD << 'dog'
-KEYWORD << 'car'
+KEYWORD << 'cat'
 KEYWORD << 'horse'
 KEYWORD << 'apple'
 

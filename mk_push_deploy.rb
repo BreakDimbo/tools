@@ -5,6 +5,9 @@
 
 require 'optparse'
 
+DefaultDir = "/Users/break/Work/Workspace/udesk/udesk_qilin_cti"
+DefaultCompile = :docker
+
 options = {}
 OptionParser.new do |opts|
   opts.banner = "Usage: ./mk_push_deploy.rb -s[service] -t[target] -c[local:docker] -d[work_directory]"
@@ -66,10 +69,10 @@ def check
 end
 
 def start(options)
-  work_dir = options[:dir]
+  work_dir = options[:dir] || DefaultDir
+  compile_way = options[:compile] || DefaultCompile
   services = options[:services]
   target = options[:target]
-  compile_way = options[:compile]
   Dir.chdir(work_dir)
   
   case compile_way

@@ -1,0 +1,1337 @@
+46544:C 23 Mar 11:50:18.528 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+46544:C 23 Mar 11:50:18.529 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=46544, just started
+46544:C 23 Mar 11:50:18.529 # Configuration loaded
+46545:M 23 Mar 11:50:18.531 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7790
+ |    `-._   `._    /     _.-'    |     PID: 46545
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+46545:M 23 Mar 11:50:18.538 # Server initialized
+46545:M 23 Mar 11:50:18.539 * DB loaded from disk: 0.001 seconds
+46545:M 23 Mar 11:50:18.539 * Ready to accept connections
+46545:M 23 Mar 11:50:41.923 * Slave 127.0.0.1:7791 asks for synchronization
+46545:M 23 Mar 11:50:41.923 * Full resync requested by slave 127.0.0.1:7791
+46545:M 23 Mar 11:50:41.924 * Starting BGSAVE for SYNC with target: disk
+46545:M 23 Mar 11:50:41.926 * Background saving started by pid 46572
+46572:C 23 Mar 11:50:41.927 * DB saved on disk
+46545:M 23 Mar 11:50:41.943 * Background saving terminated with success
+46545:M 23 Mar 11:50:41.944 * Synchronization with slave 127.0.0.1:7791 succeeded
+46545:M 23 Mar 11:50:45.283 * Slave 127.0.0.1:7792 asks for synchronization
+46545:M 23 Mar 11:50:45.284 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1.
+46545:M 23 Mar 12:43:03.512 # Disconnecting timedout slave: 127.0.0.1:7791
+46545:M 23 Mar 12:43:03.513 # Connection with slave 127.0.0.1:7791 lost.
+46545:M 23 Mar 12:43:03.513 # Disconnecting timedout slave: 127.0.0.1:7792
+46545:M 23 Mar 12:43:03.513 # Connection with slave 127.0.0.1:7792 lost.
+46545:M 23 Mar 12:43:03.817 * Slave 127.0.0.1:7791 asks for synchronization
+46545:M 23 Mar 12:43:03.817 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 246207.
+46545:M 23 Mar 12:43:04.016 * Slave 127.0.0.1:7792 asks for synchronization
+46545:M 23 Mar 12:43:04.016 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 246207.
+46545:signal-handler (1521783454) Received SIGTERM scheduling shutdown...
+46545:M 23 Mar 13:37:34.552 # Connection with slave 127.0.0.1:7791 lost.
+46545:M 23 Mar 13:37:34.552 # User requested shutdown...
+46545:M 23 Mar 13:37:34.552 * Saving the final RDB snapshot before exiting.
+46545:M 23 Mar 13:37:34.553 * DB saved on disk
+46545:M 23 Mar 13:37:34.553 * Removing the pid file.
+46545:M 23 Mar 13:37:34.554 # Redis is now ready to exit, bye bye...
+4648:C 23 Mar 14:10:08.199 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4648:C 23 Mar 14:10:08.200 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=4648, just started
+4648:C 23 Mar 14:10:08.200 # Configuration loaded
+4649:M 23 Mar 14:10:08.203 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7790
+ |    `-._   `._    /     _.-'    |     PID: 4649
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4649:M 23 Mar 14:10:08.205 # Server initialized
+4649:M 23 Mar 14:10:08.205 * DB loaded from disk: 0.000 seconds
+4649:M 23 Mar 14:10:08.206 * Ready to accept connections
+4649:M 23 Mar 14:13:22.544 # User requested shutdown...
+4649:M 23 Mar 14:13:22.545 * Saving the final RDB snapshot before exiting.
+4649:M 23 Mar 14:13:22.545 * DB saved on disk
+4649:M 23 Mar 14:13:22.546 * Removing the pid file.
+4649:M 23 Mar 14:13:22.546 # Redis is now ready to exit, bye bye...
+14503:C 23 Mar 14:34:56.441 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14503:C 23 Mar 14:34:56.442 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=14503, just started
+14503:C 23 Mar 14:34:56.442 # Configuration loaded
+14504:M 23 Mar 14:34:56.444 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7790
+ |    `-._   `._    /     _.-'    |     PID: 14504
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14504:M 23 Mar 14:34:56.446 # Server initialized
+14504:M 23 Mar 14:34:56.447 * DB loaded from disk: 0.000 seconds
+14504:M 23 Mar 14:34:56.447 * Ready to accept connections
+14504:M 23 Mar 14:34:56.465 * Slave 127.0.0.1:7791 asks for synchronization
+14504:M 23 Mar 14:34:56.465 * Full resync requested by slave 127.0.0.1:7791
+14504:M 23 Mar 14:34:56.466 * Starting BGSAVE for SYNC with target: disk
+14504:M 23 Mar 14:34:56.466 * Background saving started by pid 14508
+14508:C 23 Mar 14:34:56.467 * DB saved on disk
+14504:M 23 Mar 14:34:56.483 * Slave 127.0.0.1:7792 asks for synchronization
+14504:M 23 Mar 14:34:56.483 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1.
+14504:M 23 Mar 14:34:56.549 * Background saving terminated with success
+14504:M 23 Mar 14:34:56.549 * Synchronization with slave 127.0.0.1:7791 succeeded
+14504:M 23 Mar 14:43:03.479 # User requested shutdown...
+14504:M 23 Mar 14:43:03.479 * Saving the final RDB snapshot before exiting.
+14504:M 23 Mar 14:43:03.482 * DB saved on disk
+14504:M 23 Mar 14:43:03.482 * Removing the pid file.
+14504:M 23 Mar 14:43:03.482 # Redis is now ready to exit, bye bye...
+14970:C 23 Mar 14:43:56.345 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14970:C 23 Mar 14:43:56.346 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=14970, just started
+14970:C 23 Mar 14:43:56.348 # Configuration loaded
+14971:M 23 Mar 14:43:56.350 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7790
+ |    `-._   `._    /     _.-'    |     PID: 14971
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14971:M 23 Mar 14:43:56.352 # Server initialized
+14971:M 23 Mar 14:43:56.353 * DB loaded from disk: 0.000 seconds
+14971:M 23 Mar 14:43:56.353 * Ready to accept connections
+14971:M 23 Mar 14:43:56.370 * Slave 127.0.0.1:7791 asks for synchronization
+14971:M 23 Mar 14:43:56.370 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for 'ad8ccdcb196de1e593d124cd9abb3d729b742839', my replication IDs are '28d8c0ccff551d340e588c62484ddf61a93262fb' and '0000000000000000000000000000000000000000')
+14971:M 23 Mar 14:43:56.371 * Starting BGSAVE for SYNC with target: disk
+14971:M 23 Mar 14:43:56.371 * Background saving started by pid 14975
+14975:C 23 Mar 14:43:56.372 * DB saved on disk
+14971:M 23 Mar 14:43:56.386 * Slave 127.0.0.1:7792 asks for synchronization
+14971:M 23 Mar 14:43:56.386 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1.
+14971:M 23 Mar 14:43:56.453 * Background saving terminated with success
+14971:M 23 Mar 14:43:56.454 * Synchronization with slave 127.0.0.1:7791 succeeded
+14971:M 23 Mar 19:27:58.356 # Disconnecting timedout slave: 127.0.0.1:7791
+14971:M 23 Mar 19:27:58.356 # Connection with slave 127.0.0.1:7791 lost.
+14971:M 23 Mar 19:27:58.357 # Disconnecting timedout slave: 127.0.0.1:7792
+14971:M 23 Mar 19:27:58.357 # Connection with slave 127.0.0.1:7792 lost.
+14971:M 23 Mar 19:27:58.458 * Slave 127.0.0.1:7792 asks for synchronization
+14971:M 23 Mar 19:27:58.458 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 2973406.
+14971:M 23 Mar 19:27:59.366 * Slave 127.0.0.1:7791 asks for synchronization
+14971:M 23 Mar 19:27:59.367 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 2973406.
+14971:M 23 Mar 19:43:28.097 # Connection with slave 127.0.0.1:7791 lost.
+14971:M 23 Mar 19:43:28.099 * Slave 127.0.0.1:7791 asks for synchronization
+14971:M 23 Mar 19:43:28.099 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 3084048.
+14971:M 23 Mar 19:43:28.160 # Connection with slave 127.0.0.1:7792 lost.
+14971:M 23 Mar 19:43:28.161 * Slave 127.0.0.1:7792 asks for synchronization
+14971:M 23 Mar 19:43:28.162 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 3084048.
+14971:M 23 Mar 20:32:43.068 # Disconnecting timedout slave: 127.0.0.1:7791
+14971:M 23 Mar 20:32:43.107 # Connection with slave 127.0.0.1:7791 lost.
+14971:M 23 Mar 20:32:43.108 # Disconnecting timedout slave: 127.0.0.1:7792
+14971:M 23 Mar 20:32:43.108 # Connection with slave 127.0.0.1:7792 lost.
+14971:M 23 Mar 20:32:43.473 * Slave 127.0.0.1:7792 asks for synchronization
+14971:M 23 Mar 20:32:43.473 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 3645854.
+14971:M 23 Mar 20:32:43.673 * Slave 127.0.0.1:7791 asks for synchronization
+14971:M 23 Mar 20:32:43.674 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 3645854.
+14971:M 23 Mar 20:55:16.172 # Connection with slave 127.0.0.1:7791 lost.
+14971:M 23 Mar 20:55:16.174 * Slave 127.0.0.1:7791 asks for synchronization
+14971:M 23 Mar 20:55:16.174 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 3658720.
+14971:M 23 Mar 20:55:16.672 # Disconnecting timedout slave: 127.0.0.1:7792
+14971:M 23 Mar 20:55:16.672 # Connection with slave 127.0.0.1:7792 lost.
+14971:M 23 Mar 20:55:16.979 * Slave 127.0.0.1:7792 asks for synchronization
+14971:M 23 Mar 20:55:16.979 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 3659119.
+14971:M 23 Mar 21:06:36.121 # Connection with slave 127.0.0.1:7791 lost.
+14971:M 23 Mar 21:06:36.123 * Slave 127.0.0.1:7791 asks for synchronization
+14971:M 23 Mar 21:06:36.124 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 3665545.
+14971:M 23 Mar 21:06:36.470 # Disconnecting timedout slave: 127.0.0.1:7792
+14971:M 23 Mar 21:06:36.470 # Connection with slave 127.0.0.1:7792 lost.
+14971:M 23 Mar 21:06:36.883 * Slave 127.0.0.1:7792 asks for synchronization
+14971:M 23 Mar 21:06:36.883 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 3665944.
+14971:M 23 Mar 21:10:21.108 # Connection with slave 127.0.0.1:7791 lost.
+14971:M 23 Mar 21:10:21.110 * Slave 127.0.0.1:7791 asks for synchronization
+14971:M 23 Mar 21:10:21.110 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 3673182.
+14971:M 23 Mar 21:10:21.370 # Disconnecting timedout slave: 127.0.0.1:7792
+14971:M 23 Mar 21:10:21.370 # Connection with slave 127.0.0.1:7792 lost.
+14971:M 23 Mar 21:10:21.780 * Slave 127.0.0.1:7792 asks for synchronization
+14971:M 23 Mar 21:10:21.780 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 3673581.
+14971:M 23 Mar 21:12:26.392 # User requested shutdown...
+14971:M 23 Mar 21:12:26.393 * Saving the final RDB snapshot before exiting.
+14971:M 23 Mar 21:12:26.394 * DB saved on disk
+14971:M 23 Mar 21:12:26.394 * Removing the pid file.
+14971:M 23 Mar 21:12:26.394 # Redis is now ready to exit, bye bye...
+12792:C 26 Mar 10:09:58.913 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12792:C 26 Mar 10:09:58.914 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=12792, just started
+12792:C 26 Mar 10:09:58.914 # Configuration loaded
+12793:M 26 Mar 10:09:58.916 * Increased maximum number of open files to 10032 (it was originally set to 4864).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7790
+ |    `-._   `._    /     _.-'    |     PID: 12793
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+12793:M 26 Mar 10:09:58.922 # Server initialized
+12793:M 26 Mar 10:09:58.923 * DB loaded from disk: 0.001 seconds
+12793:M 26 Mar 10:09:58.923 * Ready to accept connections
+12793:M 26 Mar 10:09:58.935 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 10:09:58.935 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '7beaceac5a144705130511a3c5d51a7b3ccea37b', my replication IDs are '79570cfc956992b142dcea8be2d552f0aea9618a' and '0000000000000000000000000000000000000000')
+12793:M 26 Mar 10:09:58.936 * Starting BGSAVE for SYNC with target: disk
+12793:M 26 Mar 10:09:58.936 * Background saving started by pid 12797
+12797:C 26 Mar 10:09:58.937 * DB saved on disk
+12793:M 26 Mar 10:09:58.952 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 26 Mar 10:09:58.952 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1.
+12793:M 26 Mar 10:09:59.024 * Background saving terminated with success
+12793:M 26 Mar 10:09:59.025 * Synchronization with slave 127.0.0.1:7791 succeeded
+12793:M 26 Mar 12:22:52.733 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 26 Mar 12:22:52.736 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 26 Mar 12:22:52.736 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1320193.
+12793:M 26 Mar 12:22:52.988 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 26 Mar 12:22:52.989 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 26 Mar 12:22:53.291 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 12:22:53.291 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 1320592.
+12793:M 26 Mar 13:30:44.687 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 26 Mar 13:30:44.812 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 26 Mar 13:30:44.813 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 26 Mar 13:30:44.813 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 26 Mar 13:30:44.991 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 13:30:44.991 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 1330637.
+12793:M 26 Mar 13:30:45.397 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 26 Mar 13:30:45.398 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 1330637.
+12793:M 26 Mar 16:33:04.738 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 26 Mar 16:33:04.739 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 26 Mar 16:33:04.739 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 26 Mar 16:33:04.739 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 26 Mar 16:33:04.894 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 26 Mar 16:33:04.894 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 3407752.
+12793:M 26 Mar 16:33:05.599 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 16:33:05.599 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 3407752.
+12793:M 26 Mar 19:41:32.800 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 26 Mar 19:41:32.802 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 19:41:32.803 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 4988156.
+12793:M 26 Mar 22:12:34.805 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 26 Mar 22:12:34.812 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 26 Mar 22:12:34.812 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 26 Mar 22:12:34.812 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 26 Mar 22:12:35.519 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 26 Mar 22:12:35.519 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 6612492.
+12793:M 26 Mar 22:12:35.614 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 22:12:35.614 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 6612492.
+12793:M 26 Mar 22:28:30.705 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 26 Mar 22:28:34.755 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 26 Mar 22:28:34.756 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 26 Mar 22:28:34.757 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 26 Mar 22:28:34.777 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 22:28:34.778 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 6761571.
+12793:M 26 Mar 22:28:34.779 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 26 Mar 22:28:34.780 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 6761571.
+12793:M 26 Mar 23:14:27.705 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 26 Mar 23:14:27.755 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 26 Mar 23:14:27.755 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 26 Mar 23:14:27.756 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 26 Mar 23:14:27.758 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 26 Mar 23:14:27.759 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 6774437.
+12793:M 26 Mar 23:14:28.619 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 26 Mar 23:14:28.619 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 6774437.
+12793:M 27 Mar 01:17:27.752 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 01:17:27.754 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 01:17:27.754 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 6809801.
+12793:M 27 Mar 01:17:28.615 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 27 Mar 01:17:28.616 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 27 Mar 01:17:29.630 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 27 Mar 01:17:29.630 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 6810200.
+12793:M 27 Mar 03:18:31.804 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 27 Mar 03:18:31.805 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 03:18:31.805 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 27 Mar 03:18:31.805 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 27 Mar 03:18:31.807 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 27 Mar 03:18:31.807 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 6822520.
+12793:M 27 Mar 03:18:32.023 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 03:18:32.023 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 6822520.
+12793:M 27 Mar 05:19:36.108 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 27 Mar 05:19:36.108 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 27 Mar 05:19:36.109 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 27 Mar 05:19:36.109 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 05:19:36.317 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 05:19:36.318 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 14 bytes of backlog starting from offset 6835771.
+12793:M 27 Mar 05:19:37.125 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 27 Mar 05:19:37.126 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 14 bytes of backlog starting from offset 6835771.
+12793:M 27 Mar 07:01:43.408 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 27 Mar 07:01:43.408 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 07:01:43.621 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 07:01:43.622 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 6848504.
+12793:M 27 Mar 08:17:51.806 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 08:17:51.808 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 08:17:51.808 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 6860957.
+12793:M 27 Mar 08:17:52.608 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 27 Mar 08:17:52.609 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 27 Mar 08:17:53.157 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 27 Mar 08:17:53.158 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 6861356.
+12793:M 27 Mar 09:31:57.435 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 27 Mar 09:32:00.771 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 09:32:00.772 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 27 Mar 09:32:00.772 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 27 Mar 09:32:00.784 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 09:32:00.785 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 8925 bytes of backlog starting from offset 7208570.
+12793:M 27 Mar 09:32:01.711 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 27 Mar 09:32:01.711 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 8526 bytes of backlog starting from offset 7208969.
+12793:M 27 Mar 11:54:39.650 * 1 changes in 900 seconds. Saving...
+12793:M 27 Mar 11:54:39.651 * Background saving started by pid 4182
+4182:C 27 Mar 11:54:39.652 * DB saved on disk
+12793:M 27 Mar 11:54:39.751 * Background saving terminated with success
+12793:M 27 Mar 15:48:12.206 * 1 changes in 900 seconds. Saving...
+12793:M 27 Mar 15:48:12.210 * Background saving started by pid 27112
+27112:C 27 Mar 15:48:12.211 * DB saved on disk
+12793:M 27 Mar 15:48:12.310 * Background saving terminated with success
+12793:M 27 Mar 16:03:13.055 * 1 changes in 900 seconds. Saving...
+12793:M 27 Mar 16:03:13.057 * Background saving started by pid 28795
+28795:C 27 Mar 16:03:13.058 * DB saved on disk
+12793:M 27 Mar 16:03:13.158 * Background saving terminated with success
+12793:M 27 Mar 16:18:14.038 * 1 changes in 900 seconds. Saving...
+12793:M 27 Mar 16:18:14.039 * Background saving started by pid 29410
+29410:C 27 Mar 16:18:14.045 * DB saved on disk
+12793:M 27 Mar 16:18:14.145 * Background saving terminated with success
+12793:M 27 Mar 16:33:15.059 * 1 changes in 900 seconds. Saving...
+12793:M 27 Mar 16:33:15.061 * Background saving started by pid 34802
+34802:C 27 Mar 16:33:15.062 * DB saved on disk
+12793:M 27 Mar 16:33:15.161 * Background saving terminated with success
+12793:M 27 Mar 16:48:16.014 * 1 changes in 900 seconds. Saving...
+12793:M 27 Mar 16:48:16.016 * Background saving started by pid 36492
+36492:C 27 Mar 16:48:16.021 * DB saved on disk
+12793:M 27 Mar 16:48:16.121 * Background saving terminated with success
+12793:M 27 Mar 17:03:17.083 * 1 changes in 900 seconds. Saving...
+12793:M 27 Mar 17:03:17.086 * Background saving started by pid 37774
+37774:C 27 Mar 17:03:17.088 * DB saved on disk
+12793:M 27 Mar 17:03:17.189 * Background saving terminated with success
+12793:M 27 Mar 19:17:43.828 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 19:17:43.830 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 19:17:43.831 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 12747929.
+12793:M 27 Mar 21:21:17.798 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 27 Mar 21:21:17.931 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 27 Mar 21:21:17.931 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 27 Mar 21:21:17.932 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 21:21:18.310 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 21:21:18.310 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 13654408.
+12793:M 27 Mar 21:21:18.610 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 27 Mar 21:21:18.610 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 13654408.
+12793:M 27 Mar 21:25:22.306 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 27 Mar 21:25:22.306 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 27 Mar 21:25:22.719 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 27 Mar 21:25:22.719 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 13682534.
+12793:M 28 Mar 01:01:26.863 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 01:01:26.866 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 01:01:26.867 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 14806482.
+12793:M 28 Mar 01:01:27.620 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 01:01:27.620 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 01:01:27.623 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 01:01:27.623 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 14806881.
+12793:M 28 Mar 03:02:30.812 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 03:02:30.877 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 03:02:30.878 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 03:02:30.878 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 03:02:30.880 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 03:02:30.880 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 14819215.
+12793:M 28 Mar 03:02:31.122 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 03:02:31.123 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 14819215.
+12793:M 28 Mar 05:03:35.114 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 05:03:35.114 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 05:03:35.426 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 05:03:35.427 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 14832466.
+12793:M 28 Mar 05:24:41.421 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 05:24:41.421 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 05:24:41.733 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 05:24:41.734 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 14845052.
+12793:M 28 Mar 07:03:59.013 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 07:03:59.014 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 07:03:59.225 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 07:03:59.225 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 14870770.
+12793:M 28 Mar 07:12:15.015 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 07:12:15.016 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 07:12:15.119 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 07:12:15.120 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 14921674.
+12793:M 28 Mar 07:20:31.117 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 07:20:31.117 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 07:20:31.327 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 07:20:31.327 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 14972830.
+12793:M 28 Mar 07:28:47.116 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 07:28:47.116 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 07:28:47.326 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 07:28:47.327 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 15024000.
+12793:M 28 Mar 07:37:03.119 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 07:37:03.119 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 07:37:04.138 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 07:37:04.138 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 15075422.
+12793:M 28 Mar 07:45:19.118 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 07:45:19.118 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 07:45:19.329 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 07:45:19.330 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 15126858.
+12793:M 28 Mar 07:51:31.017 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 07:51:31.018 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 07:51:31.222 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 07:51:31.222 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 15165428.
+12793:M 28 Mar 07:59:47.018 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 07:59:47.019 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 07:59:47.329 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 07:59:47.329 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 15216451.
+12793:M 28 Mar 08:52:11.882 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 08:52:11.885 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 08:52:11.885 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 15719184.
+12793:M 28 Mar 08:52:12.038 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 08:52:12.039 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 08:52:12.752 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 08:52:12.752 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 15719583.
+12793:M 28 Mar 08:54:21.938 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 08:54:21.939 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 08:54:21.940 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 08:54:21.941 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 08:54:22.651 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 08:54:22.651 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 15731637.
+12793:M 28 Mar 08:54:22.746 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 08:54:22.747 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 15731637.
+12793:M 28 Mar 12:32:50.990 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 12:32:50.990 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 12:32:50.991 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 12:32:50.991 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 12:32:51.292 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 12:32:51.292 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 17693321.
+12793:M 28 Mar 12:32:51.390 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 12:32:51.390 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 17693321.
+12793:M 28 Mar 12:59:18.390 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 12:59:18.391 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 12:59:18.391 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 12:59:18.391 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 12:59:18.602 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 12:59:18.602 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 17704164.
+12793:M 28 Mar 12:59:18.804 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 12:59:18.804 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 17704164.
+12793:M 28 Mar 13:30:38.990 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 13:30:38.992 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 13:30:38.992 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 17878576.
+12793:M 28 Mar 13:30:39.593 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 13:30:39.593 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 13:30:39.794 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 13:30:39.794 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 17878975.
+12793:M 28 Mar 15:03:28.523 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 15:03:28.524 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 15:03:28.825 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 15:03:28.825 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 18889789.
+12793:M 28 Mar 15:59:27.992 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 15:59:27.996 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 15:59:27.996 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 15:59:27.996 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 15:59:28.262 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 15:59:28.263 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 413 bytes of backlog starting from offset 19505040.
+12793:M 28 Mar 15:59:28.562 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 15:59:28.563 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 413 bytes of backlog starting from offset 19505040.
+12793:M 28 Mar 19:10:22.607 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 28 Mar 19:10:22.608 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 19:10:22.608 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 19:10:22.609 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 19:10:22.719 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 19:10:22.719 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 21718111.
+12793:M 28 Mar 19:10:22.813 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 19:10:22.813 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 21718111.
+12793:M 28 Mar 19:47:43.047 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 28 Mar 19:47:43.049 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 28 Mar 19:47:43.050 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 21720120.
+12793:M 28 Mar 19:47:43.816 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 28 Mar 19:47:43.816 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 19:47:43.924 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 19:47:43.924 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 21720519.
+12793:M 28 Mar 20:34:06.094 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 28 Mar 20:34:06.097 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 28 Mar 20:34:06.097 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 21971420.
+12793:M 29 Mar 01:31:48.206 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 01:31:48.208 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 01:31:48.208 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24051071.
+12793:M 29 Mar 03:32:52.303 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 29 Mar 03:32:52.303 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 03:32:52.309 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 03:32:52.309 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 03:32:52.505 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 03:32:52.506 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24064203.
+12793:M 29 Mar 03:32:52.816 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 03:32:52.816 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 24064203.
+12793:M 29 Mar 05:33:56.151 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 05:33:56.154 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 05:33:56.154 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 24076656.
+12793:M 29 Mar 05:33:56.606 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 05:33:56.606 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 05:33:56.809 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 05:33:56.809 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24077055.
+12793:M 29 Mar 06:26:06.102 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 29 Mar 06:26:06.143 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 06:26:06.143 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 06:26:06.144 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 06:26:06.307 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 06:26:06.307 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 24089375.
+12793:M 29 Mar 06:26:06.609 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 06:26:06.609 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 24089375.
+12793:M 29 Mar 07:01:12.405 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 07:01:12.406 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 07:01:12.411 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 29 Mar 07:01:12.412 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 07:01:12.609 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 07:01:12.609 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24102640.
+12793:M 29 Mar 07:01:12.916 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 07:01:12.916 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 24102640.
+12793:M 29 Mar 08:15:32.206 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 08:15:32.208 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 08:15:32.208 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 24115093.
+12793:M 29 Mar 08:15:32.710 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 08:15:32.711 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 08:15:32.915 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 08:15:32.915 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24115492.
+12793:M 29 Mar 08:52:25.797 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 08:52:25.802 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 08:52:26.000 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 08:52:26.000 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24488557.
+12793:M 29 Mar 09:25:23.288 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 29 Mar 09:25:23.288 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 09:25:23.290 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 09:25:23.290 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 09:25:23.494 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 09:25:23.494 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24499547.
+12793:M 29 Mar 09:25:24.001 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 09:25:24.002 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 24499547.
+12793:M 29 Mar 12:25:24.151 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 12:25:24.153 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 12:25:24.154 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 26365390.
+12793:M 29 Mar 12:41:12.514 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 29 Mar 12:41:12.514 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 12:41:12.520 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 12:41:12.520 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 12:41:12.724 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 12:41:12.724 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 26376247.
+12793:M 29 Mar 12:41:12.923 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 12:41:12.924 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 26376247.
+12793:M 29 Mar 16:59:32.713 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 29 Mar 16:59:32.714 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 16:59:33.725 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 16:59:33.725 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 27425645.
+12793:M 29 Mar 17:02:04.309 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 17:02:04.309 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 17:02:05.030 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 17:02:05.030 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 27436089.
+12793:M 29 Mar 20:57:07.117 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 20:57:07.120 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 20:57:07.120 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 29755963.
+12793:M 29 Mar 20:57:07.573 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 20:57:07.573 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 20:57:08.577 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 20:57:08.577 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 29756362.
+12793:M 29 Mar 21:45:32.173 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 29 Mar 21:45:32.174 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 29 Mar 21:45:32.174 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 29 Mar 21:45:32.175 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 29 Mar 21:45:32.177 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 29 Mar 21:45:32.177 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 29766008.
+12793:M 29 Mar 21:45:32.781 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 29 Mar 21:45:32.781 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 29766008.
+12793:M 30 Mar 01:08:49.136 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 01:08:49.138 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 01:08:49.139 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 30740275.
+12793:M 30 Mar 01:08:49.287 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 01:08:49.287 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 01:08:50.297 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 01:08:50.297 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 30740674.
+12793:M 30 Mar 01:22:01.487 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 01:22:01.487 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 01:22:02.503 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 01:22:02.504 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 30753526.
+12793:M 30 Mar 03:23:05.691 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 30 Mar 03:23:05.698 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 03:23:05.698 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 03:23:05.699 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 03:23:05.793 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 03:23:05.794 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 30766392.
+12793:M 30 Mar 03:23:06.715 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 03:23:06.716 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 30766392.
+12793:M 30 Mar 05:24:09.128 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 05:24:09.131 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 05:24:09.131 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 30778712.
+12793:M 30 Mar 05:24:09.998 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 30 Mar 05:24:09.999 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 05:24:11.023 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 05:24:11.024 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 30779111.
+12793:M 30 Mar 07:02:55.285 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 07:02:55.291 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 07:02:55.494 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 07:02:55.494 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 30791830.
+12793:M 30 Mar 07:09:07.186 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 30 Mar 07:09:07.186 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 07:09:07.289 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 07:09:07.289 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 413 bytes of backlog starting from offset 30829602.
+12793:M 30 Mar 07:15:19.086 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 07:15:19.125 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 07:15:19.125 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 30 Mar 07:15:19.125 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 07:15:19.190 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 07:15:19.191 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 30868053.
+12793:M 30 Mar 07:15:19.291 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 07:15:19.292 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 30868053.
+12793:M 30 Mar 07:27:43.131 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 07:27:43.133 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 07:27:43.133 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 30944927.
+12793:M 30 Mar 07:35:59.088 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 30 Mar 07:35:59.128 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 07:35:59.296 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 07:35:59.296 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 30996083.
+12793:M 30 Mar 07:54:35.132 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 07:54:35.134 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 07:54:35.134 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 31110743.
+12793:M 30 Mar 09:24:57.530 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 30 Mar 09:24:57.530 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 09:24:57.531 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 09:24:57.531 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 09:24:57.834 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 09:24:57.834 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 31688341.
+12793:M 30 Mar 09:24:57.834 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 09:24:57.834 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 31688341.
+12793:M 30 Mar 23:45:52.665 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 23:45:52.668 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 23:45:52.969 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 23:45:52.969 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 41691495.
+12793:M 30 Mar 23:57:37.360 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 30 Mar 23:57:37.361 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 30 Mar 23:57:37.362 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 41701540.
+12793:M 30 Mar 23:57:37.562 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 30 Mar 23:57:37.567 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 30 Mar 23:57:37.867 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 30 Mar 23:57:37.867 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 14 bytes of backlog starting from offset 41701939.
+12793:M 31 Mar 00:03:41.365 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 31 Mar 00:03:41.367 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 31 Mar 00:03:41.367 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 41708379.
+12793:M 31 Mar 00:03:41.578 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 31 Mar 00:03:41.580 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 31 Mar 00:03:41.780 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 31 Mar 00:03:41.781 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 41708778.
+12793:M 31 Mar 00:15:04.666 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 31 Mar 00:15:04.667 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 31 Mar 00:15:04.874 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 31 Mar 00:15:04.874 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 41715603.
+12793:M 31 Mar 00:33:29.869 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 31 Mar 00:33:29.869 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 31 Mar 00:33:30.180 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 31 Mar 00:33:30.180 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 41723107.
+12793:M 31 Mar 02:33:44.615 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 31 Mar 02:33:44.985 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 31 Mar 02:33:44.993 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 31 Mar 02:33:44.994 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 31 Mar 02:33:45.002 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 31 Mar 02:33:45.003 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 1596 bytes of backlog starting from offset 41724850.
+12793:M 31 Mar 02:33:45.007 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 31 Mar 02:33:45.008 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 1596 bytes of backlog starting from offset 41724850.
+12793:M 31 Mar 04:34:00.579 # Disconnecting timedout slave: 127.0.0.1:7792
+12793:M 31 Mar 04:34:00.604 # Connection with slave 127.0.0.1:7792 lost.
+12793:M 31 Mar 04:34:00.628 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 31 Mar 04:34:00.821 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 31 Mar 04:34:00.936 * Slave 127.0.0.1:7792 asks for synchronization
+12793:M 31 Mar 04:34:00.937 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 41728455.
+12793:M 31 Mar 04:34:00.972 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 31 Mar 04:34:00.973 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 41728455.
+12793:M 31 Mar 06:34:41.875 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 31 Mar 06:34:41.877 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 31 Mar 06:34:41.952 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 31 Mar 06:34:41.953 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 41736491.
+12793:M 31 Mar 09:18:38.180 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 31 Mar 09:18:38.181 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 31 Mar 09:18:39.194 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 31 Mar 09:18:39.196 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 41741174.
+12793:M 31 Mar 10:32:05.373 # Disconnecting timedout slave: 127.0.0.1:7791
+12793:M 31 Mar 10:32:05.376 # Connection with slave 127.0.0.1:7791 lost.
+12793:M 31 Mar 10:32:06.384 * Slave 127.0.0.1:7791 asks for synchronization
+12793:M 31 Mar 10:32:06.385 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 41745857.
+12793:M 31 Mar 11:37:59.597 # User requested shutdown...
+12793:M 31 Mar 11:37:59.597 * Saving the final RDB snapshot before exiting.
+12793:M 31 Mar 11:37:59.600 * DB saved on disk
+12793:M 31 Mar 11:37:59.600 * Removing the pid file.
+12793:M 31 Mar 11:37:59.600 # Redis is now ready to exit, bye bye...
+88563:C 31 Mar 14:36:25.441 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+88563:C 31 Mar 14:36:25.442 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=88563, just started
+88563:C 31 Mar 14:36:25.442 # Configuration loaded
+88564:M 31 Mar 14:36:25.444 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7790
+ |    `-._   `._    /     _.-'    |     PID: 88564
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+88564:M 31 Mar 14:36:25.453 # Server initialized
+88564:M 31 Mar 14:36:25.453 * DB loaded from disk: 0.000 seconds
+88564:M 31 Mar 14:36:25.453 * Ready to accept connections
+88564:M 31 Mar 14:36:25.465 * Slave 127.0.0.1:7791 asks for synchronization
+88564:M 31 Mar 14:36:25.465 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '5f15a1bd2afc381a735c2671dda24302db521e15', my replication IDs are '4c26c9f43e2cd0fd0187a2021159b516fc214ff4' and '0000000000000000000000000000000000000000')
+88564:M 31 Mar 14:36:25.465 * Starting BGSAVE for SYNC with target: disk
+88564:M 31 Mar 14:36:25.466 * Background saving started by pid 88568
+88568:C 31 Mar 14:36:25.467 * DB saved on disk
+88564:M 31 Mar 14:36:25.481 * Slave 127.0.0.1:7792 asks for synchronization
+88564:M 31 Mar 14:36:25.481 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1.
+88564:M 31 Mar 14:36:25.555 * Background saving terminated with success
+88564:M 31 Mar 14:36:25.555 * Synchronization with slave 127.0.0.1:7791 succeeded
+88564:M 31 Mar 18:41:06.464 # Connection with slave 127.0.0.1:7792 lost.
+88564:M 31 Mar 18:41:06.466 * Slave 127.0.0.1:7792 asks for synchronization
+88564:M 31 Mar 18:41:06.466 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 2838923.
+88564:M 31 Mar 19:03:38.402 # Connection with slave 127.0.0.1:7792 lost.
+88564:M 31 Mar 19:03:38.404 * Slave 127.0.0.1:7792 asks for synchronization
+88564:M 31 Mar 19:03:38.404 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 2842542.
+88564:M 31 Mar 19:36:02.999 # Disconnecting timedout slave: 127.0.0.1:7792
+88564:M 31 Mar 19:36:03.005 # Connection with slave 127.0.0.1:7792 lost.
+88564:M 31 Mar 19:36:03.308 * Slave 127.0.0.1:7792 asks for synchronization
+88564:M 31 Mar 19:36:03.308 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 2849766.
+88564:M 31 Mar 19:46:04.966 # Disconnecting timedout slave: 127.0.0.1:7792
+88564:M 31 Mar 19:46:04.972 # Connection with slave 127.0.0.1:7792 lost.
+88564:M 31 Mar 19:46:05.274 * Slave 127.0.0.1:7792 asks for synchronization
+88564:M 31 Mar 19:46:05.274 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 2857403.
+88564:M 31 Mar 19:48:38.080 # User requested shutdown...
+88564:M 31 Mar 19:48:38.080 * Saving the final RDB snapshot before exiting.
+88564:M 31 Mar 19:48:38.082 * DB saved on disk
+88564:M 31 Mar 19:48:38.082 * Removing the pid file.
+88564:M 31 Mar 19:48:38.082 # Redis is now ready to exit, bye bye...
+16375:C 02 Apr 10:22:02.704 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16375:C 02 Apr 10:22:02.705 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=16375, just started
+16375:C 02 Apr 10:22:02.705 # Configuration loaded
+16376:M 02 Apr 10:22:02.707 * Increased maximum number of open files to 10032 (it was originally set to 4864).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7790
+ |    `-._   `._    /     _.-'    |     PID: 16376
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+16376:M 02 Apr 10:22:02.714 # Server initialized
+16376:M 02 Apr 10:22:02.714 * DB loaded from disk: 0.001 seconds
+16376:M 02 Apr 10:22:02.715 * Ready to accept connections
+16376:M 02 Apr 10:22:02.726 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 10:22:02.726 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '4782265987d2b33ff776d7b4bb154500900a0f20', my replication IDs are 'a0db2615018e36fe3f3d2432781abbe8972ada7e' and '0000000000000000000000000000000000000000')
+16376:M 02 Apr 10:22:02.727 * Starting BGSAVE for SYNC with target: disk
+16376:M 02 Apr 10:22:02.727 * Background saving started by pid 16380
+16380:C 02 Apr 10:22:02.728 * DB saved on disk
+16376:M 02 Apr 10:22:02.741 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 10:22:02.741 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1.
+16376:M 02 Apr 10:22:02.816 * Background saving terminated with success
+16376:M 02 Apr 10:22:02.817 * Synchronization with slave 127.0.0.1:7791 succeeded
+16376:M 02 Apr 12:27:52.996 # Connection with slave client id #2 lost.
+16376:M 02 Apr 12:27:52.999 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 12:27:52.999 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 133 bytes of backlog starting from offset 1319867.
+16376:M 02 Apr 13:29:45.073 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 02 Apr 13:29:45.074 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 13:29:45.079 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 13:29:45.079 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 13:29:45.483 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 13:29:45.483 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 1592867.
+16376:M 02 Apr 13:29:46.088 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 13:29:46.088 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 1592867.
+16376:M 02 Apr 18:38:22.942 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 18:38:22.989 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 18:38:22.990 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 02 Apr 18:38:22.990 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 18:38:23.045 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 18:38:23.046 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 5183111.
+16376:M 02 Apr 18:38:23.147 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 18:38:23.148 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 5183111.
+16376:M 02 Apr 19:11:31.984 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 19:11:31.986 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 19:11:31.986 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 5197174.
+16376:M 02 Apr 19:11:32.752 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 02 Apr 19:11:32.752 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 19:11:32.862 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 19:11:32.863 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 14 bytes of backlog starting from offset 5197573.
+16376:M 02 Apr 21:55:40.988 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 21:55:41.036 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 21:55:41.036 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 02 Apr 21:55:41.036 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 21:55:41.497 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 21:55:41.498 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 6994991.
+16376:M 02 Apr 21:55:41.796 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 21:55:41.797 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 6994991.
+16376:M 02 Apr 22:46:11.999 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 02 Apr 22:46:12.035 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 22:46:12.036 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 22:46:12.036 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 22:46:12.099 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 22:46:12.099 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7452448.
+16376:M 02 Apr 22:46:12.703 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 22:46:12.703 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 7452448.
+16376:M 02 Apr 23:11:30.196 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 23:11:30.197 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 23:11:30.202 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 02 Apr 23:11:30.202 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 23:11:30.300 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 23:11:30.301 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7465300.
+16376:M 02 Apr 23:11:30.906 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 23:11:30.906 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7465300.
+16376:M 02 Apr 23:21:12.105 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 23:21:12.107 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 23:21:12.107 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7477487.
+16376:M 02 Apr 23:21:12.400 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 23:21:12.401 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 23:21:12.505 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 23:21:12.505 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7477886.
+16376:M 02 Apr 23:32:26.998 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 02 Apr 23:32:27.036 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 23:32:27.036 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 23:32:27.036 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 23:32:27.099 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 23:32:27.099 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7494371.
+16376:M 02 Apr 23:32:27.708 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 23:32:27.709 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 7494371.
+16376:M 02 Apr 23:38:45.035 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 02 Apr 23:38:45.037 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 02 Apr 23:38:45.038 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7506957.
+16376:M 02 Apr 23:38:45.303 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 02 Apr 23:38:45.303 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 02 Apr 23:38:46.318 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 02 Apr 23:38:46.318 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7507356.
+16376:M 03 Apr 00:10:53.039 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 00:10:53.042 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 00:10:53.043 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7544596.
+16376:M 03 Apr 00:10:53.101 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 00:10:53.101 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 00:10:53.715 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 00:10:53.716 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 7544596.
+16376:M 03 Apr 00:26:52.081 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 00:26:52.083 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 00:26:52.083 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7557182.
+16376:M 03 Apr 00:26:52.304 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 00:26:52.304 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 00:26:53.313 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 00:26:53.313 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7557581.
+16376:M 03 Apr 00:36:13.604 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 00:36:13.605 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 00:36:14.615 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 00:36:14.615 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7570314.
+16376:M 03 Apr 00:42:43.805 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 00:42:43.805 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 00:42:44.824 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 00:42:44.824 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7582767.
+16376:M 03 Apr 00:49:40.998 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 00:49:41.037 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 00:49:41.037 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 00:49:41.037 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 00:49:41.040 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 00:49:41.040 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7596298.
+16376:M 03 Apr 00:49:41.913 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 00:49:41.914 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 7596298.
+16376:M 03 Apr 01:15:48.200 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 01:15:48.200 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 01:15:48.301 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 01:15:48.301 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7609150.
+16376:M 03 Apr 01:23:18.403 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 01:23:18.403 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 01:23:18.508 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 01:23:18.508 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7621603.
+16376:M 03 Apr 01:29:58.101 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 01:29:58.104 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 01:29:58.104 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7638487.
+16376:M 03 Apr 01:29:58.907 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 01:29:58.907 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 01:29:59.926 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 01:29:59.926 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7638886.
+16376:M 03 Apr 01:36:31.100 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 01:36:31.100 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 01:36:31.101 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 01:36:31.101 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 01:36:31.203 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 01:36:31.203 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 7650940.
+16376:M 03 Apr 01:36:31.410 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 01:36:31.410 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 7650940.
+16376:M 03 Apr 01:43:29.042 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 01:43:29.044 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 01:43:29.044 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7668090.
+16376:M 03 Apr 01:43:29.704 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 01:43:29.704 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 01:43:29.809 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 01:43:29.809 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7668489.
+16376:M 03 Apr 02:02:28.000 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 02:02:28.037 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 02:02:28.038 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 02:02:28.038 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 02:02:28.103 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 02:02:28.103 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7680676.
+16376:M 03 Apr 02:02:28.309 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 02:02:28.310 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 7680676.
+16376:M 03 Apr 02:32:58.605 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 02:32:58.605 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 02:32:58.605 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 02:32:58.606 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 02:32:58.708 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 02:32:58.708 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7698092.
+16376:M 03 Apr 02:32:58.912 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 02:32:58.912 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7698092.
+16376:M 03 Apr 02:42:03.103 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 02:42:03.105 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 02:42:03.105 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7710146.
+16376:M 03 Apr 02:42:03.806 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 02:42:03.807 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 02:42:03.913 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 02:42:03.914 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7710545.
+16376:M 03 Apr 02:48:21.000 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 02:48:21.037 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 02:48:21.037 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 02:48:21.037 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 02:48:21.106 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 02:48:21.106 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7722599.
+16376:M 03 Apr 02:48:21.310 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 02:48:21.311 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 7722599.
+16376:M 03 Apr 02:57:52.305 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 02:57:52.305 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 02:57:52.311 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 02:57:52.312 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 02:57:52.410 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 02:57:52.410 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7735584.
+16376:M 03 Apr 02:57:52.619 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 02:57:52.619 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7735584.
+16376:M 03 Apr 03:10:38.506 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 03:10:38.507 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 03:10:38.512 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 03:10:38.512 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 03:10:38.715 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 03:10:38.715 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7748051.
+16376:M 03 Apr 03:10:38.915 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 03:10:38.916 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7748051.
+16376:M 03 Apr 03:53:10.041 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 03:53:10.042 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 03:53:10.043 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7760105.
+16376:M 03 Apr 03:53:10.102 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 03:53:10.104 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 03:53:10.105 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7760105.
+16376:M 03 Apr 04:44:08.307 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 04:44:08.307 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 04:44:08.313 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 04:44:08.314 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 04:44:08.511 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 04:44:08.511 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 7994773.
+16376:M 03 Apr 04:44:08.615 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 04:44:08.615 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 7994773.
+16376:M 03 Apr 04:54:33.513 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 04:54:33.514 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 04:54:33.519 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 04:54:33.519 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 04:54:33.720 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 04:54:33.720 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8007240.
+16376:M 03 Apr 04:54:33.815 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 04:54:33.815 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8007240.
+16376:M 03 Apr 05:22:25.308 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 05:22:25.309 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 05:22:25.315 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 05:22:25.315 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 05:22:25.517 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 05:22:25.517 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8019693.
+16376:M 03 Apr 05:22:25.618 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 05:22:25.619 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8019693.
+16376:M 03 Apr 05:34:08.509 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 05:34:08.510 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 05:34:08.515 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 05:34:08.515 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 05:34:08.814 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 05:34:08.814 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8032279.
+16376:M 03 Apr 05:34:08.917 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 05:34:08.918 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8032279.
+16376:M 03 Apr 05:59:59.107 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 05:59:59.107 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 05:59:59.109 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 05:59:59.109 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8044333.
+16376:M 03 Apr 05:59:59.109 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 05:59:59.109 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8044333.
+16376:M 03 Apr 06:33:36.005 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 06:33:36.045 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 06:33:36.045 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 06:33:36.046 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 06:33:36.416 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 06:33:36.417 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 8063758.
+16376:M 03 Apr 06:33:36.417 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 06:33:36.417 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 8063758.
+16376:M 03 Apr 06:44:58.307 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 06:44:58.307 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 06:44:58.313 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 06:44:58.313 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 06:44:58.717 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 06:44:58.718 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 14 bytes of backlog starting from offset 8076743.
+16376:M 03 Apr 06:44:58.718 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 06:44:58.718 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 14 bytes of backlog starting from offset 8076743.
+16376:M 03 Apr 07:02:15.046 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:02:15.048 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:02:15.048 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8088811.
+16376:M 03 Apr 07:02:15.611 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 07:02:15.612 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 07:02:15.924 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 07:02:15.924 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8089210.
+16376:M 03 Apr 07:23:49.212 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 07:23:49.212 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:23:49.218 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 07:23:49.218 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 07:23:49.525 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:23:49.525 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8329639.
+16376:M 03 Apr 07:23:49.525 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 07:23:49.526 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8329639.
+16376:M 03 Apr 07:27:55.050 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 07:27:55.052 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 07:27:55.052 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8354160.
+16376:M 03 Apr 07:29:58.010 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 07:29:58.047 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:29:58.048 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 07:29:58.048 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 07:29:58.219 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:29:58.219 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 8366879.
+16376:M 03 Apr 07:29:58.315 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 07:29:58.315 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 8366879.
+16376:M 03 Apr 07:34:27.120 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:34:27.122 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:34:27.122 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8396349.
+16376:M 03 Apr 07:40:36.050 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:40:36.051 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:40:36.052 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8433855.
+16376:M 03 Apr 07:40:36.115 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 07:40:36.116 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 07:40:36.116 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 8433855.
+16376:M 03 Apr 07:42:39.111 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 07:42:39.111 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:42:39.320 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:42:39.320 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 8446441.
+16376:M 03 Apr 07:48:48.012 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 07:48:48.050 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 07:48:48.050 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 07:48:48.050 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:48:48.222 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:48:48.222 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 8484080.
+16376:M 03 Apr 07:48:48.325 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 07:48:48.325 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 8484080.
+16376:M 03 Apr 07:54:57.118 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 07:54:57.120 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 07:54:57.120 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 8521586.
+16376:M 03 Apr 09:23:42.302 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 09:23:42.305 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 09:23:42.305 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 09:23:42.306 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 09:23:42.820 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 09:23:42.820 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 9083245.
+16376:M 03 Apr 09:23:42.822 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 09:23:42.822 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 9083245.
+16376:M 03 Apr 17:01:55.357 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 17:01:55.358 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 17:01:55.358 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 17:01:55.359 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 17:01:55.872 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 17:01:55.872 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 14070346.
+16376:M 03 Apr 17:01:55.973 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 17:01:55.973 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 14070346.
+16376:M 03 Apr 21:12:35.486 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 21:12:35.492 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 21:12:35.493 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 21:12:35.493 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 21:12:35.796 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 21:12:35.796 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16616155.
+16376:M 03 Apr 21:12:35.996 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 21:12:35.996 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 16616155.
+16376:M 03 Apr 21:29:17.123 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 21:29:17.125 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 21:29:17.125 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 16622595.
+16376:M 03 Apr 21:29:17.591 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 21:29:17.591 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 21:29:17.900 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 21:29:17.900 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16622994.
+16376:M 03 Apr 21:35:32.124 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 21:35:32.125 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 21:35:32.126 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 16631030.
+16376:M 03 Apr 21:35:32.487 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 21:35:32.487 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 21:35:32.902 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 21:35:32.902 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16631429.
+16376:M 03 Apr 22:09:37.083 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 22:09:37.123 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 22:09:37.123 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 22:09:37.123 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 22:09:37.488 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 22:09:37.488 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 16653661.
+16376:M 03 Apr 22:09:37.790 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 22:09:37.791 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 16653661.
+16376:M 03 Apr 22:52:55.183 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 22:52:55.184 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 22:52:55.184 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 22:52:55.184 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 22:52:55.491 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 22:52:55.491 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 16662096.
+16376:M 03 Apr 22:52:55.790 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 22:52:55.790 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 16662096.
+16376:M 03 Apr 22:58:46.386 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 22:58:46.387 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 22:58:46.393 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 22:58:46.393 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 22:58:46.695 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 22:58:46.695 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16669733.
+16376:M 03 Apr 22:58:46.997 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 22:58:46.998 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 16669733.
+16376:M 03 Apr 23:15:36.190 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 23:15:36.192 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 23:15:36.193 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16677902.
+16376:M 03 Apr 23:22:10.083 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 03 Apr 23:22:10.127 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 03 Apr 23:22:10.128 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 03 Apr 23:22:10.128 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 03 Apr 23:22:10.393 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 03 Apr 23:22:10.393 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 16685140.
+16376:M 03 Apr 23:22:10.695 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 03 Apr 23:22:10.696 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 16685140.
+16376:M 04 Apr 01:38:53.523 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 01:38:53.551 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 01:38:53.556 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 16703753.
+16376:M 04 Apr 01:38:53.946 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 01:38:53.946 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 01:38:54.046 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 01:38:54.047 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16705349.
+16376:M 04 Apr 03:39:34.327 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 03:39:34.367 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 03:39:34.375 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 266 bytes of backlog starting from offset 16712188.
+16376:M 04 Apr 07:40:56.288 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 04 Apr 07:40:56.340 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 07:40:56.342 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 07:40:56.343 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 07:40:56.583 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 07:40:56.586 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 16727049.
+16376:M 04 Apr 07:40:56.984 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 07:40:56.985 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 16727049.
+16376:M 04 Apr 08:39:34.491 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 08:39:34.493 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 08:39:34.494 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 04 Apr 08:39:34.495 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 08:39:34.715 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 08:39:34.715 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16734686.
+16376:M 04 Apr 08:39:35.118 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 08:39:35.118 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 16734686.
+16376:M 04 Apr 09:28:05.349 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 09:28:05.361 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 09:28:05.366 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 16744332.
+16376:M 04 Apr 12:23:47.252 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 04 Apr 12:23:47.253 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 12:23:47.253 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 12:23:47.254 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 12:23:47.467 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 12:23:47.467 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 18671670.
+16376:M 04 Apr 12:23:47.567 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 12:23:47.567 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 18671670.
+16376:M 04 Apr 12:56:33.557 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 04 Apr 12:56:33.558 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 12:56:33.558 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 12:56:33.558 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 12:56:33.970 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 12:56:33.971 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 18813924.
+16376:M 04 Apr 12:56:33.971 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 12:56:33.971 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 18813924.
+16376:M 04 Apr 13:30:52.153 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 13:30:52.198 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 13:30:52.199 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 04 Apr 13:30:52.199 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 13:30:52.680 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 13:30:52.681 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 18823983.
+16376:M 04 Apr 13:30:52.681 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 13:30:52.681 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 18823983.
+16376:M 04 Apr 15:27:13.770 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 15:27:13.770 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 15:27:13.771 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 04 Apr 15:27:13.771 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 15:27:13.872 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 15:27:13.873 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 20145170.
+16376:M 04 Apr 15:27:13.971 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 15:27:13.971 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 20145170.
+16376:M 04 Apr 19:43:00.320 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 19:43:00.321 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 19:43:00.321 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 23110146.
+16376:M 04 Apr 21:08:28.318 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 21:08:28.321 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 21:08:28.321 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 23114563.
+16376:M 04 Apr 21:08:28.623 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 21:08:28.623 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 21:08:28.831 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 21:08:28.832 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 23114962.
+16376:M 04 Apr 21:14:33.724 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 21:14:33.725 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 21:14:33.933 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 21:14:33.933 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 23121787.
+16376:M 04 Apr 21:20:14.940 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 21:20:14.940 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 21:20:15.145 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 21:20:15.145 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 23129025.
+16376:M 04 Apr 22:58:18.326 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 22:58:18.329 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 22:58:18.329 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24251839.
+16376:M 04 Apr 23:29:37.631 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 23:29:37.631 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 23:29:37.837 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 23:29:37.838 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24277956.
+16376:M 04 Apr 23:45:26.221 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 04 Apr 23:45:26.260 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 04 Apr 23:45:26.260 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 04 Apr 23:45:26.261 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 04 Apr 23:45:26.324 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 04 Apr 23:45:26.325 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24290143.
+16376:M 04 Apr 23:45:27.136 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 04 Apr 23:45:27.136 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 24290143.
+16376:M 05 Apr 00:27:58.222 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 00:27:58.260 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 00:27:58.261 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 05 Apr 00:27:58.261 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 00:27:59.135 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 00:27:59.135 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 24335419.
+16376:M 05 Apr 00:27:59.135 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 00:27:59.135 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 24335419.
+16376:M 05 Apr 03:22:07.633 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 05 Apr 03:22:07.634 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 03:22:07.634 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 03:22:07.634 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 03:22:07.834 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 03:22:07.834 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 24849926.
+16376:M 05 Apr 03:22:07.837 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 03:22:07.837 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 24849926.
+16376:M 05 Apr 04:13:22.328 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 05 Apr 04:13:22.328 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 04:13:22.328 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 04:13:22.329 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 04:13:22.534 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 04:13:22.534 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 24862379.
+16376:M 05 Apr 04:13:22.534 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 04:13:22.535 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 24862379.
+16376:M 05 Apr 04:54:37.271 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 04:54:37.274 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 04:54:37.274 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 25230215.
+16376:M 05 Apr 05:42:18.330 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 05:42:18.334 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 05:42:18.335 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 05 Apr 05:42:18.335 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 05:42:18.741 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 05:42:18.741 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 399 bytes of backlog starting from offset 25268386.
+16376:M 05 Apr 05:42:18.741 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 05:42:18.742 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 399 bytes of backlog starting from offset 25268386.
+16376:M 05 Apr 05:49:33.534 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 05 Apr 05:49:33.535 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 05:49:33.540 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 05:49:33.540 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 05:49:33.937 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 05:49:33.937 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 25281504.
+16376:M 05 Apr 05:49:33.938 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 05:49:33.938 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 25281504.
+16376:M 05 Apr 06:52:41.537 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 05 Apr 06:52:41.537 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 06:52:41.537 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 06:52:41.537 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 06:52:41.746 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 06:52:41.747 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 25896062.
+16376:M 05 Apr 06:52:42.044 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 06:52:42.044 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 25896062.
+16376:M 05 Apr 07:02:48.276 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 07:02:48.278 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 07:02:48.279 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 25908515.
+16376:M 05 Apr 07:02:48.744 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 07:02:48.745 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 07:02:48.952 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 07:02:48.952 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 25908914.
+16376:M 05 Apr 07:09:07.341 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 07:09:07.349 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 07:09:07.349 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 25948030.
+16376:M 05 Apr 07:48:04.352 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 07:48:04.354 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 07:48:04.354 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 26369283.
+16376:M 05 Apr 07:50:08.280 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 07:50:08.282 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 07:50:08.282 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 26381883.
+16376:M 05 Apr 08:04:42.348 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 08:04:42.350 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 08:04:42.350 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 26472687.
+16376:M 05 Apr 08:33:23.161 # Disconnecting timedout slave: 127.0.0.1:7791
+16376:M 05 Apr 08:33:23.163 # Connection with slave 127.0.0.1:7791 lost.
+16376:M 05 Apr 08:33:24.182 * Slave 127.0.0.1:7791 asks for synchronization
+16376:M 05 Apr 08:33:24.182 * Partial resynchronization request from 127.0.0.1:7791 accepted. Sending 0 bytes of backlog starting from offset 26717267.
+16376:M 05 Apr 09:05:35.288 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 09:05:35.291 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 09:05:35.291 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 26934386.
+16376:M 05 Apr 09:13:50.354 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 09:13:50.356 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 09:13:50.356 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 26985276.
+16376:M 05 Apr 09:17:57.349 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 09:17:57.351 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 09:17:57.351 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 27010595.
+16376:M 05 Apr 09:20:01.247 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 09:20:01.283 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 09:20:01.351 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 09:20:01.351 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 27023461.
+16376:M 05 Apr 09:22:05.246 # Disconnecting timedout slave: 127.0.0.1:7792
+16376:M 05 Apr 09:22:05.285 # Connection with slave 127.0.0.1:7792 lost.
+16376:M 05 Apr 09:22:05.351 * Slave 127.0.0.1:7792 asks for synchronization
+16376:M 05 Apr 09:22:05.352 * Partial resynchronization request from 127.0.0.1:7792 accepted. Sending 0 bytes of backlog starting from offset 27036313.
+16376:M 05 Apr 09:39:46.998 # User requested shutdown...
+16376:M 05 Apr 09:39:46.998 * Saving the final RDB snapshot before exiting.
+16376:M 05 Apr 09:39:47.001 * DB saved on disk
+16376:M 05 Apr 09:39:47.001 * Removing the pid file.
+16376:M 05 Apr 09:39:47.002 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,1629 @@
+46575:C 23 Mar 11:50:45.273 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+46575:C 23 Mar 11:50:45.274 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=46575, just started
+46575:C 23 Mar 11:50:45.274 # Configuration loaded
+46576:S 23 Mar 11:50:45.277 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7792
+ |    `-._   `._    /     _.-'    |     PID: 46576
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+46576:S 23 Mar 11:50:45.279 # Server initialized
+46576:S 23 Mar 11:50:45.279 * DB loaded from disk: 0.000 seconds
+46576:S 23 Mar 11:50:45.280 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+46576:S 23 Mar 11:50:45.280 * Ready to accept connections
+46576:S 23 Mar 11:50:45.281 * Connecting to MASTER 127.0.0.1:7790
+46576:S 23 Mar 11:50:45.281 * MASTER <-> SLAVE sync started
+46576:S 23 Mar 11:50:45.281 * Non blocking connect for SYNC fired the event.
+46576:S 23 Mar 11:50:45.282 * Master replied to PING, replication can continue...
+46576:S 23 Mar 11:50:45.283 * Trying a partial resynchronization (request 6aa90fa9f68176e68bea383c66a72acff0161586:1).
+46576:S 23 Mar 11:50:45.284 * Successful partial resynchronization with master.
+46576:S 23 Mar 11:50:45.284 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+46576:S 23 Mar 12:43:03.514 # Connection with master lost.
+46576:S 23 Mar 12:43:03.514 * Caching the disconnected master state.
+46576:S 23 Mar 12:43:04.014 * Connecting to MASTER 127.0.0.1:7790
+46576:S 23 Mar 12:43:04.014 * MASTER <-> SLAVE sync started
+46576:S 23 Mar 12:43:04.014 * Non blocking connect for SYNC fired the event.
+46576:S 23 Mar 12:43:04.015 * Master replied to PING, replication can continue...
+46576:S 23 Mar 12:43:04.016 * Trying a partial resynchronization (request 6aa90fa9f68176e68bea383c66a72acff0161586:246207).
+46576:S 23 Mar 12:43:04.016 * Successful partial resynchronization with master.
+46576:S 23 Mar 12:43:04.017 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+46576:signal-handler (1521783454) Received SIGTERM scheduling shutdown...
+46576:S 23 Mar 13:37:34.552 # User requested shutdown...
+46576:S 23 Mar 13:37:34.552 * Saving the final RDB snapshot before exiting.
+46576:S 23 Mar 13:37:34.553 * DB saved on disk
+46576:S 23 Mar 13:37:34.554 * Removing the pid file.
+46576:S 23 Mar 13:37:34.554 # Redis is now ready to exit, bye bye...
+14507:C 23 Mar 14:34:56.475 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14507:C 23 Mar 14:34:56.476 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=14507, just started
+14507:C 23 Mar 14:34:56.476 # Configuration loaded
+14509:S 23 Mar 14:34:56.478 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7792
+ |    `-._   `._    /     _.-'    |     PID: 14509
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14509:S 23 Mar 14:34:56.480 # Server initialized
+14509:S 23 Mar 14:34:56.480 * DB loaded from disk: 0.000 seconds
+14509:S 23 Mar 14:34:56.480 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+14509:S 23 Mar 14:34:56.481 * Ready to accept connections
+14509:S 23 Mar 14:34:56.481 * Connecting to MASTER 127.0.0.1:7790
+14509:S 23 Mar 14:34:56.481 * MASTER <-> SLAVE sync started
+14509:S 23 Mar 14:34:56.481 * Non blocking connect for SYNC fired the event.
+14509:S 23 Mar 14:34:56.482 * Master replied to PING, replication can continue...
+14509:S 23 Mar 14:34:56.482 * Trying a partial resynchronization (request ad8ccdcb196de1e593d124cd9abb3d729b742839:1).
+14509:S 23 Mar 14:34:56.483 * Successful partial resynchronization with master.
+14509:S 23 Mar 14:34:56.483 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14509:S 23 Mar 14:43:03.483 # Connection with master lost.
+14509:S 23 Mar 14:43:03.483 * Caching the disconnected master state.
+14509:S 23 Mar 14:43:03.496 # User requested shutdown...
+14509:S 23 Mar 14:43:03.496 * Saving the final RDB snapshot before exiting.
+14509:S 23 Mar 14:43:03.497 * DB saved on disk
+14509:S 23 Mar 14:43:03.497 * Removing the pid file.
+14509:S 23 Mar 14:43:03.498 # Redis is now ready to exit, bye bye...
+14974:C 23 Mar 14:43:56.378 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14974:C 23 Mar 14:43:56.379 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=14974, just started
+14974:C 23 Mar 14:43:56.379 # Configuration loaded
+14976:S 23 Mar 14:43:56.381 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7792
+ |    `-._   `._    /     _.-'    |     PID: 14976
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14976:S 23 Mar 14:43:56.383 # Server initialized
+14976:S 23 Mar 14:43:56.383 * DB loaded from disk: 0.000 seconds
+14976:S 23 Mar 14:43:56.383 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+14976:S 23 Mar 14:43:56.383 * Ready to accept connections
+14976:S 23 Mar 14:43:56.384 * Connecting to MASTER 127.0.0.1:7790
+14976:S 23 Mar 14:43:56.384 * MASTER <-> SLAVE sync started
+14976:S 23 Mar 14:43:56.384 * Non blocking connect for SYNC fired the event.
+14976:S 23 Mar 14:43:56.385 * Master replied to PING, replication can continue...
+14976:S 23 Mar 14:43:56.385 * Trying a partial resynchronization (request 7beaceac5a144705130511a3c5d51a7b3ccea37b:1).
+14976:S 23 Mar 14:43:56.386 * Successful partial resynchronization with master.
+14976:S 23 Mar 14:43:56.387 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14976:S 23 Mar 19:27:58.357 # Connection with master lost.
+14976:S 23 Mar 19:27:58.358 * Caching the disconnected master state.
+14976:S 23 Mar 19:27:58.456 * Connecting to MASTER 127.0.0.1:7790
+14976:S 23 Mar 19:27:58.457 * MASTER <-> SLAVE sync started
+14976:S 23 Mar 19:27:58.457 * Non blocking connect for SYNC fired the event.
+14976:S 23 Mar 19:27:58.457 * Master replied to PING, replication can continue...
+14976:S 23 Mar 19:27:58.458 * Trying a partial resynchronization (request 7beaceac5a144705130511a3c5d51a7b3ccea37b:2973406).
+14976:S 23 Mar 19:27:58.459 * Successful partial resynchronization with master.
+14976:S 23 Mar 19:27:58.459 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14976:S 23 Mar 19:43:28.158 # MASTER timeout: no data nor PING received...
+14976:S 23 Mar 19:43:28.158 # Connection with master lost.
+14976:S 23 Mar 19:43:28.160 * Caching the disconnected master state.
+14976:S 23 Mar 19:43:28.160 * Connecting to MASTER 127.0.0.1:7790
+14976:S 23 Mar 19:43:28.160 * MASTER <-> SLAVE sync started
+14976:S 23 Mar 19:43:28.160 * Non blocking connect for SYNC fired the event.
+14976:S 23 Mar 19:43:28.161 * Master replied to PING, replication can continue...
+14976:S 23 Mar 19:43:28.161 * Trying a partial resynchronization (request 7beaceac5a144705130511a3c5d51a7b3ccea37b:3084048).
+14976:S 23 Mar 19:43:28.162 * Successful partial resynchronization with master.
+14976:S 23 Mar 19:43:28.162 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14976:S 23 Mar 20:32:43.108 # Connection with master lost.
+14976:S 23 Mar 20:32:43.109 * Caching the disconnected master state.
+14976:S 23 Mar 20:32:43.471 * Connecting to MASTER 127.0.0.1:7790
+14976:S 23 Mar 20:32:43.471 * MASTER <-> SLAVE sync started
+14976:S 23 Mar 20:32:43.471 * Non blocking connect for SYNC fired the event.
+14976:S 23 Mar 20:32:43.472 * Master replied to PING, replication can continue...
+14976:S 23 Mar 20:32:43.472 * Trying a partial resynchronization (request 7beaceac5a144705130511a3c5d51a7b3ccea37b:3645854).
+14976:S 23 Mar 20:32:43.473 * Successful partial resynchronization with master.
+14976:S 23 Mar 20:32:43.473 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14976:S 23 Mar 20:55:16.673 # Connection with master lost.
+14976:S 23 Mar 20:55:16.673 * Caching the disconnected master state.
+14976:S 23 Mar 20:55:16.975 * Connecting to MASTER 127.0.0.1:7790
+14976:S 23 Mar 20:55:16.975 * MASTER <-> SLAVE sync started
+14976:S 23 Mar 20:55:16.977 * Non blocking connect for SYNC fired the event.
+14976:S 23 Mar 20:55:16.978 * Master replied to PING, replication can continue...
+14976:S 23 Mar 20:55:16.978 * Trying a partial resynchronization (request 7beaceac5a144705130511a3c5d51a7b3ccea37b:3659119).
+14976:S 23 Mar 20:55:16.979 * Successful partial resynchronization with master.
+14976:S 23 Mar 20:55:16.980 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14976:S 23 Mar 21:06:36.471 # Connection with master lost.
+14976:S 23 Mar 21:06:36.471 * Caching the disconnected master state.
+14976:S 23 Mar 21:06:36.874 * Connecting to MASTER 127.0.0.1:7790
+14976:S 23 Mar 21:06:36.875 * MASTER <-> SLAVE sync started
+14976:S 23 Mar 21:06:36.880 * Non blocking connect for SYNC fired the event.
+14976:S 23 Mar 21:06:36.881 * Master replied to PING, replication can continue...
+14976:S 23 Mar 21:06:36.882 * Trying a partial resynchronization (request 7beaceac5a144705130511a3c5d51a7b3ccea37b:3665944).
+14976:S 23 Mar 21:06:36.883 * Successful partial resynchronization with master.
+14976:S 23 Mar 21:06:36.884 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14976:S 23 Mar 21:10:21.370 # Connection with master lost.
+14976:S 23 Mar 21:10:21.371 * Caching the disconnected master state.
+14976:S 23 Mar 21:10:21.773 * Connecting to MASTER 127.0.0.1:7790
+14976:S 23 Mar 21:10:21.774 * MASTER <-> SLAVE sync started
+14976:S 23 Mar 21:10:21.779 * Non blocking connect for SYNC fired the event.
+14976:S 23 Mar 21:10:21.779 * Master replied to PING, replication can continue...
+14976:S 23 Mar 21:10:21.780 * Trying a partial resynchronization (request 7beaceac5a144705130511a3c5d51a7b3ccea37b:3673581).
+14976:S 23 Mar 21:10:21.780 * Successful partial resynchronization with master.
+14976:S 23 Mar 21:10:21.781 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+14976:S 23 Mar 21:12:26.395 # Connection with master lost.
+14976:S 23 Mar 21:12:26.395 * Caching the disconnected master state.
+14976:S 23 Mar 21:12:26.407 # User requested shutdown...
+14976:S 23 Mar 21:12:26.407 * Saving the final RDB snapshot before exiting.
+14976:S 23 Mar 21:12:26.407 * DB saved on disk
+14976:S 23 Mar 21:12:26.408 * Removing the pid file.
+14976:S 23 Mar 21:12:26.408 # Redis is now ready to exit, bye bye...
+12796:C 26 Mar 10:09:58.944 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12796:C 26 Mar 10:09:58.945 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=12796, just started
+12796:C 26 Mar 10:09:58.945 # Configuration loaded
+12798:S 26 Mar 10:09:58.947 * Increased maximum number of open files to 10032 (it was originally set to 4864).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7792
+ |    `-._   `._    /     _.-'    |     PID: 12798
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+12798:S 26 Mar 10:09:58.949 # Server initialized
+12798:S 26 Mar 10:09:58.949 * DB loaded from disk: 0.000 seconds
+12798:S 26 Mar 10:09:58.949 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+12798:S 26 Mar 10:09:58.949 * Ready to accept connections
+12798:S 26 Mar 10:09:58.950 * Connecting to MASTER 127.0.0.1:7790
+12798:S 26 Mar 10:09:58.950 * MASTER <-> SLAVE sync started
+12798:S 26 Mar 10:09:58.950 * Non blocking connect for SYNC fired the event.
+12798:S 26 Mar 10:09:58.951 * Master replied to PING, replication can continue...
+12798:S 26 Mar 10:09:58.951 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:1).
+12798:S 26 Mar 10:09:58.952 * Successful partial resynchronization with master.
+12798:S 26 Mar 10:09:58.952 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 26 Mar 12:22:52.728 # MASTER timeout: no data nor PING received...
+12798:S 26 Mar 12:22:52.733 # Connection with master lost.
+12798:S 26 Mar 12:22:52.733 * Caching the disconnected master state.
+12798:S 26 Mar 12:22:52.733 * Connecting to MASTER 127.0.0.1:7790
+12798:S 26 Mar 12:22:52.734 * MASTER <-> SLAVE sync started
+12798:S 26 Mar 12:22:52.734 * Non blocking connect for SYNC fired the event.
+12798:S 26 Mar 12:22:52.735 * Master replied to PING, replication can continue...
+12798:S 26 Mar 12:22:52.735 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:1320193).
+12798:S 26 Mar 12:22:52.736 * Successful partial resynchronization with master.
+12798:S 26 Mar 12:22:52.736 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 26 Mar 13:30:44.813 # Connection with master lost.
+12798:S 26 Mar 13:30:44.813 * Caching the disconnected master state.
+12798:S 26 Mar 13:30:45.391 * Connecting to MASTER 127.0.0.1:7790
+12798:S 26 Mar 13:30:45.391 * MASTER <-> SLAVE sync started
+12798:S 26 Mar 13:30:45.396 * Non blocking connect for SYNC fired the event.
+12798:S 26 Mar 13:30:45.397 * Master replied to PING, replication can continue...
+12798:S 26 Mar 13:30:45.397 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:1330637).
+12798:S 26 Mar 13:30:45.398 * Successful partial resynchronization with master.
+12798:S 26 Mar 13:30:45.398 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 26 Mar 16:33:04.740 # Connection with master lost.
+12798:S 26 Mar 16:33:04.740 * Caching the disconnected master state.
+12798:S 26 Mar 16:33:04.892 * Connecting to MASTER 127.0.0.1:7790
+12798:S 26 Mar 16:33:04.893 * MASTER <-> SLAVE sync started
+12798:S 26 Mar 16:33:04.893 * Non blocking connect for SYNC fired the event.
+12798:S 26 Mar 16:33:04.893 * Master replied to PING, replication can continue...
+12798:S 26 Mar 16:33:04.894 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:3407752).
+12798:S 26 Mar 16:33:04.894 * Successful partial resynchronization with master.
+12798:S 26 Mar 16:33:04.894 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 26 Mar 22:12:34.812 # Connection with master lost.
+12798:S 26 Mar 22:12:34.813 * Caching the disconnected master state.
+12798:S 26 Mar 22:12:35.512 * Connecting to MASTER 127.0.0.1:7790
+12798:S 26 Mar 22:12:35.512 * MASTER <-> SLAVE sync started
+12798:S 26 Mar 22:12:35.518 * Non blocking connect for SYNC fired the event.
+12798:S 26 Mar 22:12:35.518 * Master replied to PING, replication can continue...
+12798:S 26 Mar 22:12:35.518 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6612492).
+12798:S 26 Mar 22:12:35.519 * Successful partial resynchronization with master.
+12798:S 26 Mar 22:12:35.519 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 26 Mar 22:28:31.520 # MASTER timeout: no data nor PING received...
+12798:S 26 Mar 22:28:34.755 # Connection with master lost.
+12798:S 26 Mar 22:28:34.756 * Caching the disconnected master state.
+12798:S 26 Mar 22:28:34.757 * Connecting to MASTER 127.0.0.1:7790
+12798:S 26 Mar 22:28:34.758 * MASTER <-> SLAVE sync started
+12798:S 26 Mar 22:28:34.760 * Non blocking connect for SYNC fired the event.
+12798:S 26 Mar 22:28:34.774 * Master replied to PING, replication can continue...
+12798:S 26 Mar 22:28:34.776 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6761571).
+12798:S 26 Mar 22:28:34.780 * Successful partial resynchronization with master.
+12798:S 26 Mar 22:28:34.781 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 26 Mar 23:14:27.705 # MASTER timeout: no data nor PING received...
+12798:S 26 Mar 23:14:27.755 # Connection with master lost.
+12798:S 26 Mar 23:14:27.755 * Caching the disconnected master state.
+12798:S 26 Mar 23:14:27.756 * Connecting to MASTER 127.0.0.1:7790
+12798:S 26 Mar 23:14:27.756 * MASTER <-> SLAVE sync started
+12798:S 26 Mar 23:14:27.757 * Non blocking connect for SYNC fired the event.
+12798:S 26 Mar 23:14:27.757 * Master replied to PING, replication can continue...
+12798:S 26 Mar 23:14:27.758 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6774437).
+12798:S 26 Mar 23:14:27.759 * Successful partial resynchronization with master.
+12798:S 26 Mar 23:14:27.759 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 01:17:27.707 # MASTER timeout: no data nor PING received...
+12798:S 27 Mar 01:17:27.751 # Connection with master lost.
+12798:S 27 Mar 01:17:27.751 * Caching the disconnected master state.
+12798:S 27 Mar 01:17:27.752 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 01:17:27.752 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 01:17:27.752 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 01:17:27.753 * Master replied to PING, replication can continue...
+12798:S 27 Mar 01:17:27.754 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6809801).
+12798:S 27 Mar 01:17:27.754 * Successful partial resynchronization with master.
+12798:S 27 Mar 01:17:27.755 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 03:18:31.805 # Connection with master lost.
+12798:S 27 Mar 03:18:31.805 * Caching the disconnected master state.
+12798:S 27 Mar 03:18:32.009 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 03:18:32.013 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 03:18:32.021 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 03:18:32.022 * Master replied to PING, replication can continue...
+12798:S 27 Mar 03:18:32.022 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6822520).
+12798:S 27 Mar 03:18:32.023 * Successful partial resynchronization with master.
+12798:S 27 Mar 03:18:32.023 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 05:19:36.109 # Connection with master lost.
+12798:S 27 Mar 05:19:36.109 * Caching the disconnected master state.
+12798:S 27 Mar 05:19:36.309 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 05:19:36.310 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 05:19:36.315 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 05:19:36.316 * Master replied to PING, replication can continue...
+12798:S 27 Mar 05:19:36.317 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6835771).
+12798:S 27 Mar 05:19:36.318 * Successful partial resynchronization with master.
+12798:S 27 Mar 05:19:36.318 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 07:01:43.413 # Connection with master lost.
+12798:S 27 Mar 07:01:43.414 * Caching the disconnected master state.
+12798:S 27 Mar 07:01:43.613 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 07:01:43.614 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 07:01:43.619 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 07:01:43.620 * Master replied to PING, replication can continue...
+12798:S 27 Mar 07:01:43.621 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6848504).
+12798:S 27 Mar 07:01:43.622 * Successful partial resynchronization with master.
+12798:S 27 Mar 07:01:43.622 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 08:17:51.804 # MASTER timeout: no data nor PING received...
+12798:S 27 Mar 08:17:51.804 # Connection with master lost.
+12798:S 27 Mar 08:17:51.806 * Caching the disconnected master state.
+12798:S 27 Mar 08:17:51.806 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 08:17:51.807 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 08:17:51.807 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 08:17:51.807 * Master replied to PING, replication can continue...
+12798:S 27 Mar 08:17:51.808 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:6860957).
+12798:S 27 Mar 08:17:51.809 * Successful partial resynchronization with master.
+12798:S 27 Mar 08:17:51.809 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 09:31:56.723 # MASTER timeout: no data nor PING received...
+12798:S 27 Mar 09:32:00.771 # Connection with master lost.
+12798:S 27 Mar 09:32:00.771 * Caching the disconnected master state.
+12798:S 27 Mar 09:32:00.772 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 09:32:00.773 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 09:32:00.781 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 09:32:00.782 * Master replied to PING, replication can continue...
+12798:S 27 Mar 09:32:00.783 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:7208570).
+12798:S 27 Mar 09:32:00.785 * Successful partial resynchronization with master.
+12798:S 27 Mar 09:32:00.785 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 11:54:39.663 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 11:54:39.664 * Background saving started by pid 4183
+4183:C 27 Mar 11:54:39.665 * DB saved on disk
+12798:S 27 Mar 11:54:39.765 * Background saving terminated with success
+12798:S 27 Mar 15:48:12.144 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 15:48:12.145 * Background saving started by pid 27111
+27111:C 27 Mar 15:48:12.146 * DB saved on disk
+12798:S 27 Mar 15:48:12.248 * Background saving terminated with success
+12798:S 27 Mar 16:03:13.026 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 16:03:13.033 * Background saving started by pid 28793
+28793:C 27 Mar 16:03:13.035 * DB saved on disk
+12798:S 27 Mar 16:03:13.134 * Background saving terminated with success
+12798:S 27 Mar 16:18:14.060 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 16:18:14.061 * Background saving started by pid 29412
+29412:C 27 Mar 16:18:14.063 * DB saved on disk
+12798:S 27 Mar 16:18:14.162 * Background saving terminated with success
+12798:S 27 Mar 16:33:15.054 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 16:33:15.061 * Background saving started by pid 34801
+34801:C 27 Mar 16:33:15.063 * DB saved on disk
+12798:S 27 Mar 16:33:15.161 * Background saving terminated with success
+12798:S 27 Mar 16:48:16.067 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 16:48:16.068 * Background saving started by pid 36494
+36494:C 27 Mar 16:48:16.070 * DB saved on disk
+12798:S 27 Mar 16:48:16.169 * Background saving terminated with success
+12798:S 27 Mar 17:03:17.086 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 17:03:17.087 * Background saving started by pid 37775
+37775:C 27 Mar 17:03:17.089 * DB saved on disk
+12798:S 27 Mar 17:03:17.189 * Background saving terminated with success
+12798:S 27 Mar 19:17:43.826 # MASTER timeout: no data nor PING received...
+12798:S 27 Mar 19:17:43.827 # Connection with master lost.
+12798:S 27 Mar 19:17:43.828 * Caching the disconnected master state.
+12798:S 27 Mar 19:17:43.828 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 19:17:43.828 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 19:17:43.829 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 19:17:43.830 * Master replied to PING, replication can continue...
+12798:S 27 Mar 19:17:43.830 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:12747929).
+12798:S 27 Mar 19:17:43.831 * Successful partial resynchronization with master.
+12798:S 27 Mar 19:17:43.831 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 21:21:17.933 # Connection with master lost.
+12798:S 27 Mar 21:21:17.947 * Caching the disconnected master state.
+12798:S 27 Mar 21:21:18.303 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 21:21:18.303 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 21:21:18.308 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 21:21:18.309 * Master replied to PING, replication can continue...
+12798:S 27 Mar 21:21:18.309 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:13654408).
+12798:S 27 Mar 21:21:18.310 * Successful partial resynchronization with master.
+12798:S 27 Mar 21:21:18.310 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 21:25:22.308 # Connection with master lost.
+12798:S 27 Mar 21:25:22.308 * Caching the disconnected master state.
+12798:S 27 Mar 21:25:22.711 * Connecting to MASTER 127.0.0.1:7790
+12798:S 27 Mar 21:25:22.711 * MASTER <-> SLAVE sync started
+12798:S 27 Mar 21:25:22.716 * Non blocking connect for SYNC fired the event.
+12798:S 27 Mar 21:25:22.718 * Master replied to PING, replication can continue...
+12798:S 27 Mar 21:25:22.719 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:13682534).
+12798:S 27 Mar 21:25:22.720 * Successful partial resynchronization with master.
+12798:S 27 Mar 21:25:22.720 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 27 Mar 21:42:22.709 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 21:42:22.716 * Background saving started by pid 55531
+55531:C 27 Mar 21:42:22.717 * DB saved on disk
+12798:S 27 Mar 21:42:22.817 * Background saving terminated with success
+12798:S 27 Mar 21:57:23.012 * 1 changes in 900 seconds. Saving...
+12798:S 27 Mar 21:57:23.013 * Background saving started by pid 55576
+55576:C 27 Mar 21:57:23.014 * DB saved on disk
+12798:S 27 Mar 21:57:23.114 * Background saving terminated with success
+12798:S 28 Mar 01:01:27.621 # Connection with master lost.
+12798:S 28 Mar 01:01:27.621 * Caching the disconnected master state.
+12798:S 28 Mar 01:01:27.621 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 01:01:27.621 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 01:01:27.622 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 01:01:27.622 * Master replied to PING, replication can continue...
+12798:S 28 Mar 01:01:27.622 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:14806881).
+12798:S 28 Mar 01:01:27.623 * Successful partial resynchronization with master.
+12798:S 28 Mar 01:01:27.623 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 03:02:30.813 # MASTER timeout: no data nor PING received...
+12798:S 28 Mar 03:02:30.877 # Connection with master lost.
+12798:S 28 Mar 03:02:30.877 * Caching the disconnected master state.
+12798:S 28 Mar 03:02:30.877 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 03:02:30.878 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 03:02:30.878 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 03:02:30.879 * Master replied to PING, replication can continue...
+12798:S 28 Mar 03:02:30.880 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:14819215).
+12798:S 28 Mar 03:02:30.880 * Successful partial resynchronization with master.
+12798:S 28 Mar 03:02:30.881 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 07:37:03.125 # Connection with master lost.
+12798:S 28 Mar 07:37:03.125 * Caching the disconnected master state.
+12798:S 28 Mar 07:37:04.129 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 07:37:04.130 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 07:37:04.136 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 07:37:04.137 * Master replied to PING, replication can continue...
+12798:S 28 Mar 07:37:04.137 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:15075422).
+12798:S 28 Mar 07:37:04.138 * Successful partial resynchronization with master.
+12798:S 28 Mar 07:37:04.139 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 07:45:19.124 # Connection with master lost.
+12798:S 28 Mar 07:45:19.124 * Caching the disconnected master state.
+12798:S 28 Mar 07:45:19.321 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 07:45:19.322 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 07:45:19.327 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 07:45:19.328 * Master replied to PING, replication can continue...
+12798:S 28 Mar 07:45:19.329 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:15126858).
+12798:S 28 Mar 07:45:19.330 * Successful partial resynchronization with master.
+12798:S 28 Mar 07:45:19.330 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 07:51:31.024 # Connection with master lost.
+12798:S 28 Mar 07:51:31.024 * Caching the disconnected master state.
+12798:S 28 Mar 07:51:31.221 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 07:51:31.221 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 07:51:31.221 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 07:51:31.222 * Master replied to PING, replication can continue...
+12798:S 28 Mar 07:51:31.222 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:15165428).
+12798:S 28 Mar 07:51:31.222 * Successful partial resynchronization with master.
+12798:S 28 Mar 07:51:31.223 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 07:59:47.024 # Connection with master lost.
+12798:S 28 Mar 07:59:47.025 * Caching the disconnected master state.
+12798:S 28 Mar 07:59:47.321 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 07:59:47.322 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 07:59:47.327 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 07:59:47.328 * Master replied to PING, replication can continue...
+12798:S 28 Mar 07:59:47.329 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:15216451).
+12798:S 28 Mar 07:59:47.330 * Successful partial resynchronization with master.
+12798:S 28 Mar 07:59:47.330 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 08:52:12.039 # Connection with master lost.
+12798:S 28 Mar 08:52:12.039 * Caching the disconnected master state.
+12798:S 28 Mar 08:52:12.750 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 08:52:12.750 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 08:52:12.750 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 08:52:12.751 * Master replied to PING, replication can continue...
+12798:S 28 Mar 08:52:12.751 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:15719583).
+12798:S 28 Mar 08:52:12.752 * Successful partial resynchronization with master.
+12798:S 28 Mar 08:52:12.752 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 08:54:21.941 # Connection with master lost.
+12798:S 28 Mar 08:54:21.941 * Caching the disconnected master state.
+12798:S 28 Mar 08:54:22.643 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 08:54:22.643 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 08:54:22.649 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 08:54:22.649 * Master replied to PING, replication can continue...
+12798:S 28 Mar 08:54:22.650 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:15731637).
+12798:S 28 Mar 08:54:22.651 * Successful partial resynchronization with master.
+12798:S 28 Mar 08:54:22.651 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 12:32:50.991 # Connection with master lost.
+12798:S 28 Mar 12:32:50.991 * Caching the disconnected master state.
+12798:S 28 Mar 12:32:51.388 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 12:32:51.389 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 12:32:51.389 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 12:32:51.389 * Master replied to PING, replication can continue...
+12798:S 28 Mar 12:32:51.390 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:17693321).
+12798:S 28 Mar 12:32:51.390 * Successful partial resynchronization with master.
+12798:S 28 Mar 12:32:51.391 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 12:59:18.392 # Connection with master lost.
+12798:S 28 Mar 12:59:18.392 * Caching the disconnected master state.
+12798:S 28 Mar 12:59:18.800 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 12:59:18.801 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 12:59:18.803 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 12:59:18.803 * Master replied to PING, replication can continue...
+12798:S 28 Mar 12:59:18.804 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:17704164).
+12798:S 28 Mar 12:59:18.804 * Successful partial resynchronization with master.
+12798:S 28 Mar 12:59:18.805 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 13:30:38.989 # MASTER timeout: no data nor PING received...
+12798:S 28 Mar 13:30:38.990 # Connection with master lost.
+12798:S 28 Mar 13:30:38.990 * Caching the disconnected master state.
+12798:S 28 Mar 13:30:38.990 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 13:30:38.990 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 13:30:38.991 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 13:30:38.991 * Master replied to PING, replication can continue...
+12798:S 28 Mar 13:30:38.992 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:17878576).
+12798:S 28 Mar 13:30:38.992 * Successful partial resynchronization with master.
+12798:S 28 Mar 13:30:38.993 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 15:59:27.996 # Connection with master lost.
+12798:S 28 Mar 15:59:27.997 * Caching the disconnected master state.
+12798:S 28 Mar 15:59:28.253 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 15:59:28.254 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 15:59:28.259 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 15:59:28.260 * Master replied to PING, replication can continue...
+12798:S 28 Mar 15:59:28.261 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:19505040).
+12798:S 28 Mar 15:59:28.263 * Successful partial resynchronization with master.
+12798:S 28 Mar 15:59:28.265 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 19:10:22.608 # Connection with master lost.
+12798:S 28 Mar 19:10:22.609 * Caching the disconnected master state.
+12798:S 28 Mar 19:10:22.809 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 19:10:22.810 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 19:10:22.811 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 19:10:22.812 * Master replied to PING, replication can continue...
+12798:S 28 Mar 19:10:22.812 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:21718111).
+12798:S 28 Mar 19:10:22.813 * Successful partial resynchronization with master.
+12798:S 28 Mar 19:10:22.813 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 28 Mar 19:47:43.007 # MASTER timeout: no data nor PING received...
+12798:S 28 Mar 19:47:43.046 # Connection with master lost.
+12798:S 28 Mar 19:47:43.047 * Caching the disconnected master state.
+12798:S 28 Mar 19:47:43.047 * Connecting to MASTER 127.0.0.1:7790
+12798:S 28 Mar 19:47:43.048 * MASTER <-> SLAVE sync started
+12798:S 28 Mar 19:47:43.048 * Non blocking connect for SYNC fired the event.
+12798:S 28 Mar 19:47:43.049 * Master replied to PING, replication can continue...
+12798:S 28 Mar 19:47:43.049 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:21720120).
+12798:S 28 Mar 19:47:43.050 * Successful partial resynchronization with master.
+12798:S 28 Mar 19:47:43.050 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 01:31:48.205 # MASTER timeout: no data nor PING received...
+12798:S 29 Mar 01:31:48.206 # Connection with master lost.
+12798:S 29 Mar 01:31:48.206 * Caching the disconnected master state.
+12798:S 29 Mar 01:31:48.206 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 01:31:48.207 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 01:31:48.207 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 01:31:48.207 * Master replied to PING, replication can continue...
+12798:S 29 Mar 01:31:48.208 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24051071).
+12798:S 29 Mar 01:31:48.209 * Successful partial resynchronization with master.
+12798:S 29 Mar 01:31:48.209 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 03:32:52.309 # Connection with master lost.
+12798:S 29 Mar 03:32:52.310 * Caching the disconnected master state.
+12798:S 29 Mar 03:32:52.502 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 03:32:52.503 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 03:32:52.504 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 03:32:52.504 * Master replied to PING, replication can continue...
+12798:S 29 Mar 03:32:52.505 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24064203).
+12798:S 29 Mar 03:32:52.506 * Successful partial resynchronization with master.
+12798:S 29 Mar 03:32:52.506 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 05:33:56.612 # Connection with master lost.
+12798:S 29 Mar 05:33:56.612 * Caching the disconnected master state.
+12798:S 29 Mar 05:33:56.807 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 05:33:56.808 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 05:33:56.808 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 05:33:56.808 * Master replied to PING, replication can continue...
+12798:S 29 Mar 05:33:56.809 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24077055).
+12798:S 29 Mar 05:33:56.810 * Successful partial resynchronization with master.
+12798:S 29 Mar 05:33:56.810 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 06:26:06.144 # Connection with master lost.
+12798:S 29 Mar 06:26:06.144 * Caching the disconnected master state.
+12798:S 29 Mar 06:26:06.304 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 06:26:06.304 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 06:26:06.306 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 06:26:06.306 * Master replied to PING, replication can continue...
+12798:S 29 Mar 06:26:06.306 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24089375).
+12798:S 29 Mar 06:26:06.307 * Successful partial resynchronization with master.
+12798:S 29 Mar 06:26:06.307 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 07:01:12.411 # Connection with master lost.
+12798:S 29 Mar 07:01:12.412 * Caching the disconnected master state.
+12798:S 29 Mar 07:01:12.606 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 07:01:12.606 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 07:01:12.608 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 07:01:12.608 * Master replied to PING, replication can continue...
+12798:S 29 Mar 07:01:12.609 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24102640).
+12798:S 29 Mar 07:01:12.609 * Successful partial resynchronization with master.
+12798:S 29 Mar 07:01:12.610 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 08:15:32.711 # Connection with master lost.
+12798:S 29 Mar 08:15:32.711 * Caching the disconnected master state.
+12798:S 29 Mar 08:15:32.911 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 08:15:32.912 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 08:15:32.914 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 08:15:32.914 * Master replied to PING, replication can continue...
+12798:S 29 Mar 08:15:32.915 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24115492).
+12798:S 29 Mar 08:15:32.916 * Successful partial resynchronization with master.
+12798:S 29 Mar 08:15:32.916 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 08:52:25.802 # Connection with master lost.
+12798:S 29 Mar 08:52:25.806 * Caching the disconnected master state.
+12798:S 29 Mar 08:52:25.998 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 08:52:25.999 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 08:52:25.999 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 08:52:25.999 * Master replied to PING, replication can continue...
+12798:S 29 Mar 08:52:26.000 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24488557).
+12798:S 29 Mar 08:52:26.000 * Successful partial resynchronization with master.
+12798:S 29 Mar 08:52:26.000 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 09:25:23.290 # Connection with master lost.
+12798:S 29 Mar 09:25:23.291 * Caching the disconnected master state.
+12798:S 29 Mar 09:25:23.490 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 09:25:23.490 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 09:25:23.491 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 09:25:23.492 * Master replied to PING, replication can continue...
+12798:S 29 Mar 09:25:23.493 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:24499547).
+12798:S 29 Mar 09:25:23.494 * Successful partial resynchronization with master.
+12798:S 29 Mar 09:25:23.494 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 12:25:24.109 # MASTER timeout: no data nor PING received...
+12798:S 29 Mar 12:25:24.151 # Connection with master lost.
+12798:S 29 Mar 12:25:24.151 * Caching the disconnected master state.
+12798:S 29 Mar 12:25:24.151 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 12:25:24.152 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 12:25:24.152 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 12:25:24.153 * Master replied to PING, replication can continue...
+12798:S 29 Mar 12:25:24.153 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:26365390).
+12798:S 29 Mar 12:25:24.154 * Successful partial resynchronization with master.
+12798:S 29 Mar 12:25:24.154 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 12:41:12.520 # Connection with master lost.
+12798:S 29 Mar 12:41:12.521 * Caching the disconnected master state.
+12798:S 29 Mar 12:41:12.715 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 12:41:12.716 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 12:41:12.722 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 12:41:12.722 * Master replied to PING, replication can continue...
+12798:S 29 Mar 12:41:12.723 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:26376247).
+12798:S 29 Mar 12:41:12.724 * Successful partial resynchronization with master.
+12798:S 29 Mar 12:41:12.724 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 17:02:04.315 # Connection with master lost.
+12798:S 29 Mar 17:02:04.315 * Caching the disconnected master state.
+12798:S 29 Mar 17:02:05.023 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 17:02:05.023 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 17:02:05.029 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 17:02:05.029 * Master replied to PING, replication can continue...
+12798:S 29 Mar 17:02:05.030 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:27436089).
+12798:S 29 Mar 17:02:05.030 * Successful partial resynchronization with master.
+12798:S 29 Mar 17:02:05.030 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 20:57:07.573 # Connection with master lost.
+12798:S 29 Mar 20:57:07.574 * Caching the disconnected master state.
+12798:S 29 Mar 20:57:08.575 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 20:57:08.575 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 20:57:08.576 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 20:57:08.576 * Master replied to PING, replication can continue...
+12798:S 29 Mar 20:57:08.576 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:29756362).
+12798:S 29 Mar 20:57:08.577 * Successful partial resynchronization with master.
+12798:S 29 Mar 20:57:08.577 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 29 Mar 21:45:32.172 # MASTER timeout: no data nor PING received...
+12798:S 29 Mar 21:45:32.172 # Connection with master lost.
+12798:S 29 Mar 21:45:32.173 * Caching the disconnected master state.
+12798:S 29 Mar 21:45:32.173 * Connecting to MASTER 127.0.0.1:7790
+12798:S 29 Mar 21:45:32.174 * MASTER <-> SLAVE sync started
+12798:S 29 Mar 21:45:32.174 * Non blocking connect for SYNC fired the event.
+12798:S 29 Mar 21:45:32.176 * Master replied to PING, replication can continue...
+12798:S 29 Mar 21:45:32.177 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:29766008).
+12798:S 29 Mar 21:45:32.177 * Successful partial resynchronization with master.
+12798:S 29 Mar 21:45:32.178 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 01:08:49.287 # Connection with master lost.
+12798:S 30 Mar 01:08:49.288 * Caching the disconnected master state.
+12798:S 30 Mar 01:08:50.295 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 01:08:50.296 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 01:08:50.296 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 01:08:50.296 * Master replied to PING, replication can continue...
+12798:S 30 Mar 01:08:50.297 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:30740674).
+12798:S 30 Mar 01:08:50.297 * Successful partial resynchronization with master.
+12798:S 30 Mar 01:08:50.298 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 01:22:01.488 # Connection with master lost.
+12798:S 30 Mar 01:22:01.488 * Caching the disconnected master state.
+12798:S 30 Mar 01:22:02.495 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 01:22:02.496 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 01:22:02.501 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 01:22:02.502 * Master replied to PING, replication can continue...
+12798:S 30 Mar 01:22:02.503 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:30753526).
+12798:S 30 Mar 01:22:02.504 * Successful partial resynchronization with master.
+12798:S 30 Mar 01:22:02.504 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 03:23:05.699 # Connection with master lost.
+12798:S 30 Mar 03:23:05.700 * Caching the disconnected master state.
+12798:S 30 Mar 03:23:05.791 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 03:23:05.792 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 03:23:05.792 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 03:23:05.792 * Master replied to PING, replication can continue...
+12798:S 30 Mar 03:23:05.793 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:30766392).
+12798:S 30 Mar 03:23:05.794 * Successful partial resynchronization with master.
+12798:S 30 Mar 03:23:05.794 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 05:24:09.084 # MASTER timeout: no data nor PING received...
+12798:S 30 Mar 05:24:09.127 # Connection with master lost.
+12798:S 30 Mar 05:24:09.128 * Caching the disconnected master state.
+12798:S 30 Mar 05:24:09.128 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 05:24:09.129 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 05:24:09.129 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 05:24:09.130 * Master replied to PING, replication can continue...
+12798:S 30 Mar 05:24:09.130 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:30778712).
+12798:S 30 Mar 05:24:09.131 * Successful partial resynchronization with master.
+12798:S 30 Mar 05:24:09.132 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 07:02:55.292 # Connection with master lost.
+12798:S 30 Mar 07:02:55.292 * Caching the disconnected master state.
+12798:S 30 Mar 07:02:55.486 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 07:02:55.486 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 07:02:55.492 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 07:02:55.493 * Master replied to PING, replication can continue...
+12798:S 30 Mar 07:02:55.494 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:30791830).
+12798:S 30 Mar 07:02:55.495 * Successful partial resynchronization with master.
+12798:S 30 Mar 07:02:55.495 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 07:15:19.125 # Connection with master lost.
+12798:S 30 Mar 07:15:19.125 * Caching the disconnected master state.
+12798:S 30 Mar 07:15:19.287 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 07:15:19.287 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 07:15:19.290 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 07:15:19.290 * Master replied to PING, replication can continue...
+12798:S 30 Mar 07:15:19.291 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:30868053).
+12798:S 30 Mar 07:15:19.292 * Successful partial resynchronization with master.
+12798:S 30 Mar 07:15:19.292 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 07:27:43.087 # MASTER timeout: no data nor PING received...
+12798:S 30 Mar 07:27:43.130 # Connection with master lost.
+12798:S 30 Mar 07:27:43.131 * Caching the disconnected master state.
+12798:S 30 Mar 07:27:43.131 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 07:27:43.131 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 07:27:43.132 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 07:27:43.132 * Master replied to PING, replication can continue...
+12798:S 30 Mar 07:27:43.133 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:30944927).
+12798:S 30 Mar 07:27:43.133 * Successful partial resynchronization with master.
+12798:S 30 Mar 07:27:43.134 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 07:54:35.091 # MASTER timeout: no data nor PING received...
+12798:S 30 Mar 07:54:35.131 # Connection with master lost.
+12798:S 30 Mar 07:54:35.132 * Caching the disconnected master state.
+12798:S 30 Mar 07:54:35.132 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 07:54:35.132 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 07:54:35.133 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 07:54:35.133 * Master replied to PING, replication can continue...
+12798:S 30 Mar 07:54:35.133 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:31110743).
+12798:S 30 Mar 07:54:35.134 * Successful partial resynchronization with master.
+12798:S 30 Mar 07:54:35.134 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 09:24:57.532 # Connection with master lost.
+12798:S 30 Mar 09:24:57.532 * Caching the disconnected master state.
+12798:S 30 Mar 09:24:57.831 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 09:24:57.832 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 09:24:57.832 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 09:24:57.833 * Master replied to PING, replication can continue...
+12798:S 30 Mar 09:24:57.833 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:31688341).
+12798:S 30 Mar 09:24:57.834 * Successful partial resynchronization with master.
+12798:S 30 Mar 09:24:57.835 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 23:45:52.669 # Connection with master lost.
+12798:S 30 Mar 23:45:52.670 * Caching the disconnected master state.
+12798:S 30 Mar 23:45:52.967 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 23:45:52.967 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 23:45:52.968 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 23:45:52.968 * Master replied to PING, replication can continue...
+12798:S 30 Mar 23:45:52.969 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:41691495).
+12798:S 30 Mar 23:45:52.969 * Successful partial resynchronization with master.
+12798:S 30 Mar 23:45:52.972 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 30 Mar 23:57:37.567 # Connection with master lost.
+12798:S 30 Mar 23:57:37.568 * Caching the disconnected master state.
+12798:S 30 Mar 23:57:37.864 * Connecting to MASTER 127.0.0.1:7790
+12798:S 30 Mar 23:57:37.864 * MASTER <-> SLAVE sync started
+12798:S 30 Mar 23:57:37.866 * Non blocking connect for SYNC fired the event.
+12798:S 30 Mar 23:57:37.866 * Master replied to PING, replication can continue...
+12798:S 30 Mar 23:57:37.866 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:41701939).
+12798:S 30 Mar 23:57:37.867 * Successful partial resynchronization with master.
+12798:S 30 Mar 23:57:37.867 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 31 Mar 00:03:41.583 # Connection with master lost.
+12798:S 31 Mar 00:03:41.583 * Caching the disconnected master state.
+12798:S 31 Mar 00:03:41.779 * Connecting to MASTER 127.0.0.1:7790
+12798:S 31 Mar 00:03:41.779 * MASTER <-> SLAVE sync started
+12798:S 31 Mar 00:03:41.779 * Non blocking connect for SYNC fired the event.
+12798:S 31 Mar 00:03:41.780 * Master replied to PING, replication can continue...
+12798:S 31 Mar 00:03:41.780 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:41708778).
+12798:S 31 Mar 00:03:41.781 * Successful partial resynchronization with master.
+12798:S 31 Mar 00:03:41.781 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 31 Mar 00:15:04.668 # Connection with master lost.
+12798:S 31 Mar 00:15:04.668 * Caching the disconnected master state.
+12798:S 31 Mar 00:15:04.867 * Connecting to MASTER 127.0.0.1:7790
+12798:S 31 Mar 00:15:04.867 * MASTER <-> SLAVE sync started
+12798:S 31 Mar 00:15:04.873 * Non blocking connect for SYNC fired the event.
+12798:S 31 Mar 00:15:04.873 * Master replied to PING, replication can continue...
+12798:S 31 Mar 00:15:04.874 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:41715603).
+12798:S 31 Mar 00:15:04.874 * Successful partial resynchronization with master.
+12798:S 31 Mar 00:15:04.874 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 31 Mar 00:33:29.875 # Connection with master lost.
+12798:S 31 Mar 00:33:29.875 * Caching the disconnected master state.
+12798:S 31 Mar 00:33:30.172 * Connecting to MASTER 127.0.0.1:7790
+12798:S 31 Mar 00:33:30.172 * MASTER <-> SLAVE sync started
+12798:S 31 Mar 00:33:30.178 * Non blocking connect for SYNC fired the event.
+12798:S 31 Mar 00:33:30.179 * Master replied to PING, replication can continue...
+12798:S 31 Mar 00:33:30.179 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:41723107).
+12798:S 31 Mar 00:33:30.180 * Successful partial resynchronization with master.
+12798:S 31 Mar 00:33:30.181 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 31 Mar 02:33:44.987 # MASTER timeout: no data nor PING received...
+12798:S 31 Mar 02:33:44.992 # Connection with master lost.
+12798:S 31 Mar 02:33:44.993 * Caching the disconnected master state.
+12798:S 31 Mar 02:33:44.993 * Connecting to MASTER 127.0.0.1:7790
+12798:S 31 Mar 02:33:44.994 * MASTER <-> SLAVE sync started
+12798:S 31 Mar 02:33:44.995 * Non blocking connect for SYNC fired the event.
+12798:S 31 Mar 02:33:44.998 * Master replied to PING, replication can continue...
+12798:S 31 Mar 02:33:45.002 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:41724850).
+12798:S 31 Mar 02:33:45.003 * Successful partial resynchronization with master.
+12798:S 31 Mar 02:33:45.003 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 31 Mar 04:34:00.579 # MASTER timeout: no data nor PING received...
+12798:S 31 Mar 04:34:00.605 # Connection with master lost.
+12798:S 31 Mar 04:34:00.628 * Caching the disconnected master state.
+12798:S 31 Mar 04:34:00.629 * Connecting to MASTER 127.0.0.1:7790
+12798:S 31 Mar 04:34:00.651 * MASTER <-> SLAVE sync started
+12798:S 31 Mar 04:34:00.930 * Non blocking connect for SYNC fired the event.
+12798:S 31 Mar 04:34:00.933 * Master replied to PING, replication can continue...
+12798:S 31 Mar 04:34:00.935 * Trying a partial resynchronization (request 5f15a1bd2afc381a735c2671dda24302db521e15:41728455).
+12798:S 31 Mar 04:34:00.937 * Successful partial resynchronization with master.
+12798:S 31 Mar 04:34:00.937 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+12798:S 31 Mar 11:37:59.603 # Connection with master lost.
+12798:S 31 Mar 11:37:59.603 * Caching the disconnected master state.
+12798:S 31 Mar 11:37:59.615 # User requested shutdown...
+12798:S 31 Mar 11:37:59.615 * Saving the final RDB snapshot before exiting.
+12798:S 31 Mar 11:37:59.616 * DB saved on disk
+12798:S 31 Mar 11:37:59.616 * Removing the pid file.
+12798:S 31 Mar 11:37:59.616 # Redis is now ready to exit, bye bye...
+88567:C 31 Mar 14:36:25.473 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+88567:C 31 Mar 14:36:25.474 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=88567, just started
+88567:C 31 Mar 14:36:25.474 # Configuration loaded
+88569:S 31 Mar 14:36:25.476 * Increased maximum number of open files to 10032 (it was originally set to 7168).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7792
+ |    `-._   `._    /     _.-'    |     PID: 88569
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+88569:S 31 Mar 14:36:25.478 # Server initialized
+88569:S 31 Mar 14:36:25.478 * DB loaded from disk: 0.000 seconds
+88569:S 31 Mar 14:36:25.478 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+88569:S 31 Mar 14:36:25.479 * Ready to accept connections
+88569:S 31 Mar 14:36:25.479 * Connecting to MASTER 127.0.0.1:7790
+88569:S 31 Mar 14:36:25.479 * MASTER <-> SLAVE sync started
+88569:S 31 Mar 14:36:25.480 * Non blocking connect for SYNC fired the event.
+88569:S 31 Mar 14:36:25.480 * Master replied to PING, replication can continue...
+88569:S 31 Mar 14:36:25.481 * Trying a partial resynchronization (request 4782265987d2b33ff776d7b4bb154500900a0f20:1).
+88569:S 31 Mar 14:36:25.481 * Successful partial resynchronization with master.
+88569:S 31 Mar 14:36:25.482 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+88569:S 31 Mar 18:41:06.461 # MASTER timeout: no data nor PING received...
+88569:S 31 Mar 18:41:06.463 # Connection with master lost.
+88569:S 31 Mar 18:41:06.463 * Caching the disconnected master state.
+88569:S 31 Mar 18:41:06.463 * Connecting to MASTER 127.0.0.1:7790
+88569:S 31 Mar 18:41:06.464 * MASTER <-> SLAVE sync started
+88569:S 31 Mar 18:41:06.464 * Non blocking connect for SYNC fired the event.
+88569:S 31 Mar 18:41:06.465 * Master replied to PING, replication can continue...
+88569:S 31 Mar 18:41:06.466 * Trying a partial resynchronization (request 4782265987d2b33ff776d7b4bb154500900a0f20:2838923).
+88569:S 31 Mar 18:41:06.467 * Successful partial resynchronization with master.
+88569:S 31 Mar 18:41:06.467 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+88569:S 31 Mar 19:03:38.361 # MASTER timeout: no data nor PING received...
+88569:S 31 Mar 19:03:38.401 # Connection with master lost.
+88569:S 31 Mar 19:03:38.401 * Caching the disconnected master state.
+88569:S 31 Mar 19:03:38.402 * Connecting to MASTER 127.0.0.1:7790
+88569:S 31 Mar 19:03:38.402 * MASTER <-> SLAVE sync started
+88569:S 31 Mar 19:03:38.402 * Non blocking connect for SYNC fired the event.
+88569:S 31 Mar 19:03:38.403 * Master replied to PING, replication can continue...
+88569:S 31 Mar 19:03:38.404 * Trying a partial resynchronization (request 4782265987d2b33ff776d7b4bb154500900a0f20:2842542).
+88569:S 31 Mar 19:03:38.405 * Successful partial resynchronization with master.
+88569:S 31 Mar 19:03:38.405 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+88569:S 31 Mar 19:36:03.006 # Connection with master lost.
+88569:S 31 Mar 19:36:03.006 * Caching the disconnected master state.
+88569:S 31 Mar 19:36:03.300 * Connecting to MASTER 127.0.0.1:7790
+88569:S 31 Mar 19:36:03.301 * MASTER <-> SLAVE sync started
+88569:S 31 Mar 19:36:03.306 * Non blocking connect for SYNC fired the event.
+88569:S 31 Mar 19:36:03.307 * Master replied to PING, replication can continue...
+88569:S 31 Mar 19:36:03.308 * Trying a partial resynchronization (request 4782265987d2b33ff776d7b4bb154500900a0f20:2849766).
+88569:S 31 Mar 19:36:03.309 * Successful partial resynchronization with master.
+88569:S 31 Mar 19:36:03.309 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+88569:S 31 Mar 19:46:04.973 # Connection with master lost.
+88569:S 31 Mar 19:46:04.973 * Caching the disconnected master state.
+88569:S 31 Mar 19:46:05.265 * Connecting to MASTER 127.0.0.1:7790
+88569:S 31 Mar 19:46:05.266 * MASTER <-> SLAVE sync started
+88569:S 31 Mar 19:46:05.272 * Non blocking connect for SYNC fired the event.
+88569:S 31 Mar 19:46:05.272 * Master replied to PING, replication can continue...
+88569:S 31 Mar 19:46:05.273 * Trying a partial resynchronization (request 4782265987d2b33ff776d7b4bb154500900a0f20:2857403).
+88569:S 31 Mar 19:46:05.274 * Successful partial resynchronization with master.
+88569:S 31 Mar 19:46:05.275 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+88569:S 31 Mar 19:48:38.083 # Connection with master lost.
+88569:S 31 Mar 19:48:38.084 * Caching the disconnected master state.
+88569:S 31 Mar 19:48:38.095 # User requested shutdown...
+88569:S 31 Mar 19:48:38.095 * Saving the final RDB snapshot before exiting.
+88569:S 31 Mar 19:48:38.096 * DB saved on disk
+88569:S 31 Mar 19:48:38.096 * Removing the pid file.
+88569:S 31 Mar 19:48:38.097 # Redis is now ready to exit, bye bye...
+16379:C 02 Apr 10:22:02.734 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16379:C 02 Apr 10:22:02.735 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=16379, just started
+16379:C 02 Apr 10:22:02.735 # Configuration loaded
+16381:S 02 Apr 10:22:02.737 * Increased maximum number of open files to 10032 (it was originally set to 4864).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7792
+ |    `-._   `._    /     _.-'    |     PID: 16381
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+16381:S 02 Apr 10:22:02.738 # Server initialized
+16381:S 02 Apr 10:22:02.738 * DB loaded from disk: 0.000 seconds
+16381:S 02 Apr 10:22:02.738 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+16381:S 02 Apr 10:22:02.739 * Ready to accept connections
+16381:S 02 Apr 10:22:02.739 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 10:22:02.739 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 10:22:02.739 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 10:22:02.740 * Master replied to PING, replication can continue...
+16381:S 02 Apr 10:22:02.740 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:1).
+16381:S 02 Apr 10:22:02.741 * Successful partial resynchronization with master.
+16381:S 02 Apr 10:22:02.741 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 13:29:45.079 # Connection with master lost.
+16381:S 02 Apr 13:29:45.080 * Caching the disconnected master state.
+16381:S 02 Apr 13:29:46.081 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 13:29:46.081 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 13:29:46.087 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 13:29:46.087 * Master replied to PING, replication can continue...
+16381:S 02 Apr 13:29:46.088 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:1592867).
+16381:S 02 Apr 13:29:46.088 * Successful partial resynchronization with master.
+16381:S 02 Apr 13:29:46.089 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 18:38:22.990 # Connection with master lost.
+16381:S 02 Apr 18:38:22.991 * Caching the disconnected master state.
+16381:S 02 Apr 18:38:23.042 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 18:38:23.043 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 18:38:23.043 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 18:38:23.044 * Master replied to PING, replication can continue...
+16381:S 02 Apr 18:38:23.045 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:5183111).
+16381:S 02 Apr 18:38:23.046 * Successful partial resynchronization with master.
+16381:S 02 Apr 18:38:23.046 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 19:11:32.753 # Connection with master lost.
+16381:S 02 Apr 19:11:32.753 * Caching the disconnected master state.
+16381:S 02 Apr 19:11:32.854 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 19:11:32.855 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 19:11:32.861 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 19:11:32.861 * Master replied to PING, replication can continue...
+16381:S 02 Apr 19:11:32.862 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:5197573).
+16381:S 02 Apr 19:11:32.863 * Successful partial resynchronization with master.
+16381:S 02 Apr 19:11:32.863 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 21:55:41.037 # Connection with master lost.
+16381:S 02 Apr 21:55:41.038 * Caching the disconnected master state.
+16381:S 02 Apr 21:55:41.495 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 21:55:41.495 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 21:55:41.496 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 21:55:41.496 * Master replied to PING, replication can continue...
+16381:S 02 Apr 21:55:41.497 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:6994991).
+16381:S 02 Apr 21:55:41.498 * Successful partial resynchronization with master.
+16381:S 02 Apr 21:55:41.498 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 22:46:12.036 # Connection with master lost.
+16381:S 02 Apr 22:46:12.036 * Caching the disconnected master state.
+16381:S 02 Apr 22:46:12.701 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 22:46:12.701 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 22:46:12.702 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 22:46:12.702 * Master replied to PING, replication can continue...
+16381:S 02 Apr 22:46:12.703 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7452448).
+16381:S 02 Apr 22:46:12.703 * Successful partial resynchronization with master.
+16381:S 02 Apr 22:46:12.704 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 23:11:30.203 # Connection with master lost.
+16381:S 02 Apr 23:11:30.203 * Caching the disconnected master state.
+16381:S 02 Apr 23:11:30.904 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 23:11:30.905 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 23:11:30.905 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 23:11:30.905 * Master replied to PING, replication can continue...
+16381:S 02 Apr 23:11:30.906 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7465300).
+16381:S 02 Apr 23:11:30.906 * Successful partial resynchronization with master.
+16381:S 02 Apr 23:11:30.907 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 23:21:12.098 # MASTER timeout: no data nor PING received...
+16381:S 02 Apr 23:21:12.099 # Connection with master lost.
+16381:S 02 Apr 23:21:12.104 * Caching the disconnected master state.
+16381:S 02 Apr 23:21:12.105 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 23:21:12.105 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 23:21:12.105 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 23:21:12.106 * Master replied to PING, replication can continue...
+16381:S 02 Apr 23:21:12.106 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7477487).
+16381:S 02 Apr 23:21:12.107 * Successful partial resynchronization with master.
+16381:S 02 Apr 23:21:12.107 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 23:32:27.036 # Connection with master lost.
+16381:S 02 Apr 23:32:27.037 * Caching the disconnected master state.
+16381:S 02 Apr 23:32:27.702 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 23:32:27.702 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 23:32:27.707 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 23:32:27.708 * Master replied to PING, replication can continue...
+16381:S 02 Apr 23:32:27.708 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7494371).
+16381:S 02 Apr 23:32:27.709 * Successful partial resynchronization with master.
+16381:S 02 Apr 23:32:27.709 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 02 Apr 23:38:44.997 # MASTER timeout: no data nor PING received...
+16381:S 02 Apr 23:38:45.034 # Connection with master lost.
+16381:S 02 Apr 23:38:45.035 * Caching the disconnected master state.
+16381:S 02 Apr 23:38:45.035 * Connecting to MASTER 127.0.0.1:7790
+16381:S 02 Apr 23:38:45.035 * MASTER <-> SLAVE sync started
+16381:S 02 Apr 23:38:45.036 * Non blocking connect for SYNC fired the event.
+16381:S 02 Apr 23:38:45.036 * Master replied to PING, replication can continue...
+16381:S 02 Apr 23:38:45.037 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7506957).
+16381:S 02 Apr 23:38:45.038 * Successful partial resynchronization with master.
+16381:S 02 Apr 23:38:45.038 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 00:10:53.102 # Connection with master lost.
+16381:S 03 Apr 00:10:53.102 * Caching the disconnected master state.
+16381:S 03 Apr 00:10:53.709 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 00:10:53.709 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 00:10:53.714 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 00:10:53.715 * Master replied to PING, replication can continue...
+16381:S 03 Apr 00:10:53.715 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7544596).
+16381:S 03 Apr 00:10:53.716 * Successful partial resynchronization with master.
+16381:S 03 Apr 00:10:53.716 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 00:26:51.998 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 00:26:52.080 # Connection with master lost.
+16381:S 03 Apr 00:26:52.080 * Caching the disconnected master state.
+16381:S 03 Apr 00:26:52.081 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 00:26:52.081 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 00:26:52.082 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 00:26:52.082 * Master replied to PING, replication can continue...
+16381:S 03 Apr 00:26:52.083 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7557182).
+16381:S 03 Apr 00:26:52.083 * Successful partial resynchronization with master.
+16381:S 03 Apr 00:26:52.083 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 00:49:41.037 # Connection with master lost.
+16381:S 03 Apr 00:49:41.037 * Caching the disconnected master state.
+16381:S 03 Apr 00:49:41.909 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 00:49:41.909 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 00:49:41.911 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 00:49:41.912 * Master replied to PING, replication can continue...
+16381:S 03 Apr 00:49:41.913 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7596298).
+16381:S 03 Apr 00:49:41.914 * Successful partial resynchronization with master.
+16381:S 03 Apr 00:49:41.914 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 01:29:58.908 # Connection with master lost.
+16381:S 03 Apr 01:29:58.908 * Caching the disconnected master state.
+16381:S 03 Apr 01:29:59.917 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 01:29:59.918 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 01:29:59.924 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 01:29:59.924 * Master replied to PING, replication can continue...
+16381:S 03 Apr 01:29:59.925 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7638886).
+16381:S 03 Apr 01:29:59.926 * Successful partial resynchronization with master.
+16381:S 03 Apr 01:29:59.927 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 01:36:31.102 # Connection with master lost.
+16381:S 03 Apr 01:36:31.102 * Caching the disconnected master state.
+16381:S 03 Apr 01:36:31.200 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 01:36:31.201 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 01:36:31.201 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 01:36:31.202 * Master replied to PING, replication can continue...
+16381:S 03 Apr 01:36:31.203 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7650940).
+16381:S 03 Apr 01:36:31.204 * Successful partial resynchronization with master.
+16381:S 03 Apr 01:36:31.204 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 01:43:29.710 # Connection with master lost.
+16381:S 03 Apr 01:43:29.710 * Caching the disconnected master state.
+16381:S 03 Apr 01:43:29.805 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 01:43:29.806 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 01:43:29.807 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 01:43:29.808 * Master replied to PING, replication can continue...
+16381:S 03 Apr 01:43:29.808 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7668489).
+16381:S 03 Apr 01:43:29.809 * Successful partial resynchronization with master.
+16381:S 03 Apr 01:43:29.809 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 02:02:28.038 # Connection with master lost.
+16381:S 03 Apr 02:02:28.038 * Caching the disconnected master state.
+16381:S 03 Apr 02:02:28.101 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 02:02:28.101 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 02:02:28.101 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 02:02:28.102 * Master replied to PING, replication can continue...
+16381:S 03 Apr 02:02:28.102 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7680676).
+16381:S 03 Apr 02:02:28.103 * Successful partial resynchronization with master.
+16381:S 03 Apr 02:02:28.103 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 02:32:58.606 # Connection with master lost.
+16381:S 03 Apr 02:32:58.606 * Caching the disconnected master state.
+16381:S 03 Apr 02:32:58.705 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 02:32:58.706 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 02:32:58.706 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 02:32:58.707 * Master replied to PING, replication can continue...
+16381:S 03 Apr 02:32:58.707 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7698092).
+16381:S 03 Apr 02:32:58.708 * Successful partial resynchronization with master.
+16381:S 03 Apr 02:32:58.708 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 02:42:03.807 # Connection with master lost.
+16381:S 03 Apr 02:42:03.807 * Caching the disconnected master state.
+16381:S 03 Apr 02:42:03.909 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 02:42:03.910 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 02:42:03.912 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 02:42:03.912 * Master replied to PING, replication can continue...
+16381:S 03 Apr 02:42:03.913 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7710545).
+16381:S 03 Apr 02:42:03.914 * Successful partial resynchronization with master.
+16381:S 03 Apr 02:42:03.914 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 02:48:21.038 # Connection with master lost.
+16381:S 03 Apr 02:48:21.038 * Caching the disconnected master state.
+16381:S 03 Apr 02:48:21.102 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 02:48:21.102 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 02:48:21.104 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 02:48:21.104 * Master replied to PING, replication can continue...
+16381:S 03 Apr 02:48:21.105 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7722599).
+16381:S 03 Apr 02:48:21.106 * Successful partial resynchronization with master.
+16381:S 03 Apr 02:48:21.106 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 02:57:52.312 # Connection with master lost.
+16381:S 03 Apr 02:57:52.312 * Caching the disconnected master state.
+16381:S 03 Apr 02:57:52.406 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 02:57:52.407 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 02:57:52.408 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 02:57:52.409 * Master replied to PING, replication can continue...
+16381:S 03 Apr 02:57:52.409 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7735584).
+16381:S 03 Apr 02:57:52.410 * Successful partial resynchronization with master.
+16381:S 03 Apr 02:57:52.410 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 03:10:38.512 # Connection with master lost.
+16381:S 03 Apr 03:10:38.512 * Caching the disconnected master state.
+16381:S 03 Apr 03:10:38.708 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 03:10:38.708 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 03:10:38.714 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 03:10:38.714 * Master replied to PING, replication can continue...
+16381:S 03 Apr 03:10:38.715 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7748051).
+16381:S 03 Apr 03:10:38.715 * Successful partial resynchronization with master.
+16381:S 03 Apr 03:10:38.715 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 03:53:10.001 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 03:53:10.040 # Connection with master lost.
+16381:S 03 Apr 03:53:10.040 * Caching the disconnected master state.
+16381:S 03 Apr 03:53:10.041 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 03:53:10.041 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 03:53:10.041 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 03:53:10.041 * Master replied to PING, replication can continue...
+16381:S 03 Apr 03:53:10.042 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7760105).
+16381:S 03 Apr 03:53:10.043 * Successful partial resynchronization with master.
+16381:S 03 Apr 03:53:10.043 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 04:44:08.314 # Connection with master lost.
+16381:S 03 Apr 04:44:08.314 * Caching the disconnected master state.
+16381:S 03 Apr 04:44:08.509 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 04:44:08.510 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 04:44:08.510 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 04:44:08.510 * Master replied to PING, replication can continue...
+16381:S 03 Apr 04:44:08.511 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:7994773).
+16381:S 03 Apr 04:44:08.511 * Successful partial resynchronization with master.
+16381:S 03 Apr 04:44:08.511 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 04:54:33.519 # Connection with master lost.
+16381:S 03 Apr 04:54:33.519 * Caching the disconnected master state.
+16381:S 03 Apr 04:54:33.713 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 04:54:33.714 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 04:54:33.719 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 04:54:33.719 * Master replied to PING, replication can continue...
+16381:S 03 Apr 04:54:33.720 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8007240).
+16381:S 03 Apr 04:54:33.720 * Successful partial resynchronization with master.
+16381:S 03 Apr 04:54:33.720 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 05:22:25.314 # Connection with master lost.
+16381:S 03 Apr 05:22:25.317 * Caching the disconnected master state.
+16381:S 03 Apr 05:22:25.510 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 05:22:25.510 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 05:22:25.516 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 05:22:25.516 * Master replied to PING, replication can continue...
+16381:S 03 Apr 05:22:25.517 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8019693).
+16381:S 03 Apr 05:22:25.517 * Successful partial resynchronization with master.
+16381:S 03 Apr 05:22:25.517 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 05:34:08.515 # Connection with master lost.
+16381:S 03 Apr 05:34:08.515 * Caching the disconnected master state.
+16381:S 03 Apr 05:34:08.811 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 05:34:08.812 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 05:34:08.813 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 05:34:08.813 * Master replied to PING, replication can continue...
+16381:S 03 Apr 05:34:08.814 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8032279).
+16381:S 03 Apr 05:34:08.814 * Successful partial resynchronization with master.
+16381:S 03 Apr 05:34:08.815 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 05:59:59.106 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 05:59:59.106 # Connection with master lost.
+16381:S 03 Apr 05:59:59.106 * Caching the disconnected master state.
+16381:S 03 Apr 05:59:59.107 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 05:59:59.107 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 05:59:59.107 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 05:59:59.108 * Master replied to PING, replication can continue...
+16381:S 03 Apr 05:59:59.108 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8044333).
+16381:S 03 Apr 05:59:59.109 * Successful partial resynchronization with master.
+16381:S 03 Apr 05:59:59.110 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 06:33:36.046 # Connection with master lost.
+16381:S 03 Apr 06:33:36.046 * Caching the disconnected master state.
+16381:S 03 Apr 06:33:36.409 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 06:33:36.410 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 06:33:36.415 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 06:33:36.415 * Master replied to PING, replication can continue...
+16381:S 03 Apr 06:33:36.416 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8063758).
+16381:S 03 Apr 06:33:36.417 * Successful partial resynchronization with master.
+16381:S 03 Apr 06:33:36.417 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 06:44:58.313 # Connection with master lost.
+16381:S 03 Apr 06:44:58.313 * Caching the disconnected master state.
+16381:S 03 Apr 06:44:58.710 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 06:44:58.711 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 06:44:58.716 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 06:44:58.717 * Master replied to PING, replication can continue...
+16381:S 03 Apr 06:44:58.717 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8076743).
+16381:S 03 Apr 06:44:58.718 * Successful partial resynchronization with master.
+16381:S 03 Apr 06:44:58.719 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:02:15.006 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 07:02:15.045 # Connection with master lost.
+16381:S 03 Apr 07:02:15.045 * Caching the disconnected master state.
+16381:S 03 Apr 07:02:15.046 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:02:15.046 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:02:15.046 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:02:15.047 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:02:15.047 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8088811).
+16381:S 03 Apr 07:02:15.048 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:02:15.048 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:23:49.218 # Connection with master lost.
+16381:S 03 Apr 07:23:49.218 * Caching the disconnected master state.
+16381:S 03 Apr 07:23:49.518 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:23:49.518 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:23:49.524 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:23:49.524 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:23:49.525 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8329639).
+16381:S 03 Apr 07:23:49.525 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:23:49.526 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:29:58.048 # Connection with master lost.
+16381:S 03 Apr 07:29:58.048 * Caching the disconnected master state.
+16381:S 03 Apr 07:29:58.211 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:29:58.212 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:29:58.217 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:29:58.218 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:29:58.218 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8366879).
+16381:S 03 Apr 07:29:58.219 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:29:58.219 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:34:27.114 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 07:34:27.114 # Connection with master lost.
+16381:S 03 Apr 07:34:27.119 * Caching the disconnected master state.
+16381:S 03 Apr 07:34:27.120 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:34:27.120 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:34:27.120 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:34:27.121 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:34:27.121 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8396349).
+16381:S 03 Apr 07:34:27.122 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:34:27.122 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:40:36.011 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 07:40:36.049 # Connection with master lost.
+16381:S 03 Apr 07:40:36.049 * Caching the disconnected master state.
+16381:S 03 Apr 07:40:36.049 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:40:36.050 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:40:36.050 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:40:36.051 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:40:36.051 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8433855).
+16381:S 03 Apr 07:40:36.052 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:40:36.052 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:42:39.117 # Connection with master lost.
+16381:S 03 Apr 07:42:39.118 * Caching the disconnected master state.
+16381:S 03 Apr 07:42:39.313 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:42:39.313 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:42:39.319 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:42:39.319 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:42:39.320 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8446441).
+16381:S 03 Apr 07:42:39.321 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:42:39.321 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:48:48.051 # Connection with master lost.
+16381:S 03 Apr 07:48:48.051 * Caching the disconnected master state.
+16381:S 03 Apr 07:48:48.215 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:48:48.215 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:48:48.221 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:48:48.221 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:48:48.222 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8484080).
+16381:S 03 Apr 07:48:48.222 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:48:48.223 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 07:54:57.112 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 07:54:57.112 # Connection with master lost.
+16381:S 03 Apr 07:54:57.118 * Caching the disconnected master state.
+16381:S 03 Apr 07:54:57.118 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 07:54:57.118 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 07:54:57.119 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 07:54:57.119 * Master replied to PING, replication can continue...
+16381:S 03 Apr 07:54:57.119 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:8521586).
+16381:S 03 Apr 07:54:57.120 * Successful partial resynchronization with master.
+16381:S 03 Apr 07:54:57.120 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 09:23:42.306 # Connection with master lost.
+16381:S 03 Apr 09:23:42.307 * Caching the disconnected master state.
+16381:S 03 Apr 09:23:42.818 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 09:23:42.818 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 09:23:42.819 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 09:23:42.819 * Master replied to PING, replication can continue...
+16381:S 03 Apr 09:23:42.820 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:9083245).
+16381:S 03 Apr 09:23:42.821 * Successful partial resynchronization with master.
+16381:S 03 Apr 09:23:42.821 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 17:01:55.358 # Connection with master lost.
+16381:S 03 Apr 17:01:55.359 * Caching the disconnected master state.
+16381:S 03 Apr 17:01:55.968 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 17:01:55.969 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 17:01:55.971 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 17:01:55.972 * Master replied to PING, replication can continue...
+16381:S 03 Apr 17:01:55.973 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:14070346).
+16381:S 03 Apr 17:01:55.973 * Successful partial resynchronization with master.
+16381:S 03 Apr 17:01:55.974 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 21:12:35.493 # Connection with master lost.
+16381:S 03 Apr 21:12:35.494 * Caching the disconnected master state.
+16381:S 03 Apr 21:12:35.794 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 21:12:35.795 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 21:12:35.795 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 21:12:35.795 * Master replied to PING, replication can continue...
+16381:S 03 Apr 21:12:35.796 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16616155).
+16381:S 03 Apr 21:12:35.796 * Successful partial resynchronization with master.
+16381:S 03 Apr 21:12:35.796 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 21:29:17.597 # Connection with master lost.
+16381:S 03 Apr 21:29:17.598 * Caching the disconnected master state.
+16381:S 03 Apr 21:29:17.893 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 21:29:17.893 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 21:29:17.898 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 21:29:17.899 * Master replied to PING, replication can continue...
+16381:S 03 Apr 21:29:17.899 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16622994).
+16381:S 03 Apr 21:29:17.900 * Successful partial resynchronization with master.
+16381:S 03 Apr 21:29:17.900 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 21:35:32.488 # Connection with master lost.
+16381:S 03 Apr 21:35:32.488 * Caching the disconnected master state.
+16381:S 03 Apr 21:35:32.894 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 21:35:32.895 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 21:35:32.900 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 21:35:32.901 * Master replied to PING, replication can continue...
+16381:S 03 Apr 21:35:32.902 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16631429).
+16381:S 03 Apr 21:35:32.902 * Successful partial resynchronization with master.
+16381:S 03 Apr 21:35:32.903 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 22:09:37.123 # Connection with master lost.
+16381:S 03 Apr 22:09:37.124 * Caching the disconnected master state.
+16381:S 03 Apr 22:09:37.485 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 22:09:37.486 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 22:09:37.486 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 22:09:37.487 * Master replied to PING, replication can continue...
+16381:S 03 Apr 22:09:37.487 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16653661).
+16381:S 03 Apr 22:09:37.488 * Successful partial resynchronization with master.
+16381:S 03 Apr 22:09:37.488 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 22:52:55.184 # Connection with master lost.
+16381:S 03 Apr 22:52:55.184 * Caching the disconnected master state.
+16381:S 03 Apr 22:52:55.487 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 22:52:55.488 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 22:52:55.488 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 22:52:55.489 * Master replied to PING, replication can continue...
+16381:S 03 Apr 22:52:55.490 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16662096).
+16381:S 03 Apr 22:52:55.491 * Successful partial resynchronization with master.
+16381:S 03 Apr 22:52:55.491 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 22:58:46.395 # Connection with master lost.
+16381:S 03 Apr 22:58:46.396 * Caching the disconnected master state.
+16381:S 03 Apr 22:58:46.687 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 22:58:46.688 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 22:58:46.693 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 22:58:46.694 * Master replied to PING, replication can continue...
+16381:S 03 Apr 22:58:46.694 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16669733).
+16381:S 03 Apr 22:58:46.695 * Successful partial resynchronization with master.
+16381:S 03 Apr 22:58:46.696 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 23:15:36.184 # MASTER timeout: no data nor PING received...
+16381:S 03 Apr 23:15:36.184 # Connection with master lost.
+16381:S 03 Apr 23:15:36.190 * Caching the disconnected master state.
+16381:S 03 Apr 23:15:36.190 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 23:15:36.190 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 23:15:36.190 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 23:15:36.191 * Master replied to PING, replication can continue...
+16381:S 03 Apr 23:15:36.192 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16677902).
+16381:S 03 Apr 23:15:36.193 * Successful partial resynchronization with master.
+16381:S 03 Apr 23:15:36.193 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 03 Apr 23:22:10.128 # Connection with master lost.
+16381:S 03 Apr 23:22:10.129 * Caching the disconnected master state.
+16381:S 03 Apr 23:22:10.386 * Connecting to MASTER 127.0.0.1:7790
+16381:S 03 Apr 23:22:10.386 * MASTER <-> SLAVE sync started
+16381:S 03 Apr 23:22:10.391 * Non blocking connect for SYNC fired the event.
+16381:S 03 Apr 23:22:10.392 * Master replied to PING, replication can continue...
+16381:S 03 Apr 23:22:10.392 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16685140).
+16381:S 03 Apr 23:22:10.393 * Successful partial resynchronization with master.
+16381:S 03 Apr 23:22:10.393 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 01:38:53.946 # Connection with master lost.
+16381:S 04 Apr 01:38:53.947 * Caching the disconnected master state.
+16381:S 04 Apr 01:38:54.040 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 01:38:54.045 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 01:38:54.045 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 01:38:54.046 * Master replied to PING, replication can continue...
+16381:S 04 Apr 01:38:54.046 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16705349).
+16381:S 04 Apr 01:38:54.047 * Successful partial resynchronization with master.
+16381:S 04 Apr 01:38:54.047 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 03:39:34.204 # MASTER timeout: no data nor PING received...
+16381:S 04 Apr 03:39:34.223 # Connection with master lost.
+16381:S 04 Apr 03:39:34.248 * Caching the disconnected master state.
+16381:S 04 Apr 03:39:34.327 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 03:39:34.332 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 03:39:34.335 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 03:39:34.346 * Master replied to PING, replication can continue...
+16381:S 04 Apr 03:39:34.366 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16712188).
+16381:S 04 Apr 03:39:34.375 * Successful partial resynchronization with master.
+16381:S 04 Apr 03:39:34.380 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 07:40:56.343 # Connection with master lost.
+16381:S 04 Apr 07:40:56.348 * Caching the disconnected master state.
+16381:S 04 Apr 07:40:56.579 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 07:40:56.580 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 07:40:56.581 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 07:40:56.581 * Master replied to PING, replication can continue...
+16381:S 04 Apr 07:40:56.582 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16727049).
+16381:S 04 Apr 07:40:56.586 * Successful partial resynchronization with master.
+16381:S 04 Apr 07:40:56.587 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 08:39:34.495 # Connection with master lost.
+16381:S 04 Apr 08:39:34.497 * Caching the disconnected master state.
+16381:S 04 Apr 08:39:34.711 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 08:39:34.713 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 08:39:34.713 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 08:39:34.714 * Master replied to PING, replication can continue...
+16381:S 04 Apr 08:39:34.714 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16734686).
+16381:S 04 Apr 08:39:34.715 * Successful partial resynchronization with master.
+16381:S 04 Apr 08:39:34.716 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 09:28:05.340 # MASTER timeout: no data nor PING received...
+16381:S 04 Apr 09:28:05.344 # Connection with master lost.
+16381:S 04 Apr 09:28:05.347 * Caching the disconnected master state.
+16381:S 04 Apr 09:28:05.349 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 09:28:05.351 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 09:28:05.351 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 09:28:05.358 * Master replied to PING, replication can continue...
+16381:S 04 Apr 09:28:05.359 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:16744332).
+16381:S 04 Apr 09:28:05.367 * Successful partial resynchronization with master.
+16381:S 04 Apr 09:28:05.369 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 12:23:47.254 # Connection with master lost.
+16381:S 04 Apr 12:23:47.255 * Caching the disconnected master state.
+16381:S 04 Apr 12:23:47.555 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 12:23:47.556 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 12:23:47.556 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 12:23:47.559 * Master replied to PING, replication can continue...
+16381:S 04 Apr 12:23:47.566 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:18671670).
+16381:S 04 Apr 12:23:47.567 * Successful partial resynchronization with master.
+16381:S 04 Apr 12:23:47.568 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 12:56:33.559 # Connection with master lost.
+16381:S 04 Apr 12:56:33.559 * Caching the disconnected master state.
+16381:S 04 Apr 12:56:33.961 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 12:56:33.962 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 12:56:33.968 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 12:56:33.969 * Master replied to PING, replication can continue...
+16381:S 04 Apr 12:56:33.970 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:18813924).
+16381:S 04 Apr 12:56:33.971 * Successful partial resynchronization with master.
+16381:S 04 Apr 12:56:33.971 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 13:30:52.199 # Connection with master lost.
+16381:S 04 Apr 13:30:52.199 * Caching the disconnected master state.
+16381:S 04 Apr 13:30:52.673 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 13:30:52.674 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 13:30:52.679 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 13:30:52.679 * Master replied to PING, replication can continue...
+16381:S 04 Apr 13:30:52.680 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:18823983).
+16381:S 04 Apr 13:30:52.681 * Successful partial resynchronization with master.
+16381:S 04 Apr 13:30:52.681 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 15:27:13.771 # Connection with master lost.
+16381:S 04 Apr 15:27:13.772 * Caching the disconnected master state.
+16381:S 04 Apr 15:27:13.869 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 15:27:13.870 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 15:27:13.871 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 15:27:13.871 * Master replied to PING, replication can continue...
+16381:S 04 Apr 15:27:13.872 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:20145170).
+16381:S 04 Apr 15:27:13.873 * Successful partial resynchronization with master.
+16381:S 04 Apr 15:27:13.874 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 19:43:00.318 # MASTER timeout: no data nor PING received...
+16381:S 04 Apr 19:43:00.319 # Connection with master lost.
+16381:S 04 Apr 19:43:00.319 * Caching the disconnected master state.
+16381:S 04 Apr 19:43:00.320 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 19:43:00.320 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 19:43:00.320 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 19:43:00.320 * Master replied to PING, replication can continue...
+16381:S 04 Apr 19:43:00.321 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:23110146).
+16381:S 04 Apr 19:43:00.321 * Successful partial resynchronization with master.
+16381:S 04 Apr 19:43:00.322 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 21:08:28.623 # Connection with master lost.
+16381:S 04 Apr 21:08:28.623 * Caching the disconnected master state.
+16381:S 04 Apr 21:08:28.825 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 21:08:28.825 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 21:08:28.830 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 21:08:28.831 * Master replied to PING, replication can continue...
+16381:S 04 Apr 21:08:28.831 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:23114962).
+16381:S 04 Apr 21:08:28.832 * Successful partial resynchronization with master.
+16381:S 04 Apr 21:08:28.832 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 21:14:33.731 # Connection with master lost.
+16381:S 04 Apr 21:14:33.731 * Caching the disconnected master state.
+16381:S 04 Apr 21:14:33.925 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 21:14:33.926 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 21:14:33.931 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 21:14:33.932 * Master replied to PING, replication can continue...
+16381:S 04 Apr 21:14:33.933 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:23121787).
+16381:S 04 Apr 21:14:33.933 * Successful partial resynchronization with master.
+16381:S 04 Apr 21:14:33.933 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 21:20:14.946 # Connection with master lost.
+16381:S 04 Apr 21:20:14.946 * Caching the disconnected master state.
+16381:S 04 Apr 21:20:15.138 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 21:20:15.138 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 21:20:15.143 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 21:20:15.144 * Master replied to PING, replication can continue...
+16381:S 04 Apr 21:20:15.144 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:23129025).
+16381:S 04 Apr 21:20:15.145 * Successful partial resynchronization with master.
+16381:S 04 Apr 21:20:15.145 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 22:58:18.323 # MASTER timeout: no data nor PING received...
+16381:S 04 Apr 22:58:18.325 # Connection with master lost.
+16381:S 04 Apr 22:58:18.326 * Caching the disconnected master state.
+16381:S 04 Apr 22:58:18.326 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 22:58:18.327 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 22:58:18.327 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 22:58:18.328 * Master replied to PING, replication can continue...
+16381:S 04 Apr 22:58:18.328 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:24251839).
+16381:S 04 Apr 22:58:18.330 * Successful partial resynchronization with master.
+16381:S 04 Apr 22:58:18.330 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 23:29:37.633 # Connection with master lost.
+16381:S 04 Apr 23:29:37.633 * Caching the disconnected master state.
+16381:S 04 Apr 23:29:37.833 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 23:29:37.834 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 23:29:37.835 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 23:29:37.836 * Master replied to PING, replication can continue...
+16381:S 04 Apr 23:29:37.837 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:24277956).
+16381:S 04 Apr 23:29:37.838 * Successful partial resynchronization with master.
+16381:S 04 Apr 23:29:37.839 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 04 Apr 23:45:26.261 # Connection with master lost.
+16381:S 04 Apr 23:45:26.261 * Caching the disconnected master state.
+16381:S 04 Apr 23:45:26.321 * Connecting to MASTER 127.0.0.1:7790
+16381:S 04 Apr 23:45:26.321 * MASTER <-> SLAVE sync started
+16381:S 04 Apr 23:45:26.323 * Non blocking connect for SYNC fired the event.
+16381:S 04 Apr 23:45:26.323 * Master replied to PING, replication can continue...
+16381:S 04 Apr 23:45:26.324 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:24290143).
+16381:S 04 Apr 23:45:26.325 * Successful partial resynchronization with master.
+16381:S 04 Apr 23:45:26.325 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 00:27:58.261 # Connection with master lost.
+16381:S 05 Apr 00:27:58.261 * Caching the disconnected master state.
+16381:S 05 Apr 00:27:59.131 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 00:27:59.131 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 00:27:59.133 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 00:27:59.134 * Master replied to PING, replication can continue...
+16381:S 05 Apr 00:27:59.134 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:24335419).
+16381:S 05 Apr 00:27:59.136 * Successful partial resynchronization with master.
+16381:S 05 Apr 00:27:59.136 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 03:22:07.635 # Connection with master lost.
+16381:S 05 Apr 03:22:07.635 * Caching the disconnected master state.
+16381:S 05 Apr 03:22:07.834 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 03:22:07.835 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 03:22:07.835 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 03:22:07.836 * Master replied to PING, replication can continue...
+16381:S 05 Apr 03:22:07.837 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:24849926).
+16381:S 05 Apr 03:22:07.838 * Successful partial resynchronization with master.
+16381:S 05 Apr 03:22:07.838 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 04:13:22.329 # Connection with master lost.
+16381:S 05 Apr 04:13:22.329 * Caching the disconnected master state.
+16381:S 05 Apr 04:13:22.529 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 04:13:22.530 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 04:13:22.532 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 04:13:22.532 * Master replied to PING, replication can continue...
+16381:S 05 Apr 04:13:22.533 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:24862379).
+16381:S 05 Apr 04:13:22.534 * Successful partial resynchronization with master.
+16381:S 05 Apr 04:13:22.534 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 05:42:18.335 # Connection with master lost.
+16381:S 05 Apr 05:42:18.335 * Caching the disconnected master state.
+16381:S 05 Apr 05:42:18.734 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 05:42:18.734 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 05:42:18.740 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 05:42:18.740 * Master replied to PING, replication can continue...
+16381:S 05 Apr 05:42:18.741 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:25268386).
+16381:S 05 Apr 05:42:18.742 * Successful partial resynchronization with master.
+16381:S 05 Apr 05:42:18.742 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 05:49:33.541 # Connection with master lost.
+16381:S 05 Apr 05:49:33.542 * Caching the disconnected master state.
+16381:S 05 Apr 05:49:33.937 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 05:49:33.937 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 05:49:33.937 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 05:49:33.937 * Master replied to PING, replication can continue...
+16381:S 05 Apr 05:49:33.938 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:25281504).
+16381:S 05 Apr 05:49:33.938 * Successful partial resynchronization with master.
+16381:S 05 Apr 05:49:33.939 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 06:52:41.538 # Connection with master lost.
+16381:S 05 Apr 06:52:41.538 * Caching the disconnected master state.
+16381:S 05 Apr 06:52:41.739 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 06:52:41.740 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 06:52:41.745 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 06:52:41.745 * Master replied to PING, replication can continue...
+16381:S 05 Apr 06:52:41.746 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:25896062).
+16381:S 05 Apr 06:52:41.747 * Successful partial resynchronization with master.
+16381:S 05 Apr 06:52:41.747 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 07:02:48.751 # Connection with master lost.
+16381:S 05 Apr 07:02:48.751 * Caching the disconnected master state.
+16381:S 05 Apr 07:02:48.945 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 07:02:48.945 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 07:02:48.950 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 07:02:48.951 * Master replied to PING, replication can continue...
+16381:S 05 Apr 07:02:48.951 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:25908914).
+16381:S 05 Apr 07:02:48.952 * Successful partial resynchronization with master.
+16381:S 05 Apr 07:02:48.952 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 07:48:04.344 # MASTER timeout: no data nor PING received...
+16381:S 05 Apr 07:48:04.344 # Connection with master lost.
+16381:S 05 Apr 07:48:04.351 * Caching the disconnected master state.
+16381:S 05 Apr 07:48:04.352 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 07:48:04.352 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 07:48:04.352 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 07:48:04.353 * Master replied to PING, replication can continue...
+16381:S 05 Apr 07:48:04.354 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:26369283).
+16381:S 05 Apr 07:48:04.355 * Successful partial resynchronization with master.
+16381:S 05 Apr 07:48:04.355 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 08:04:42.342 # MASTER timeout: no data nor PING received...
+16381:S 05 Apr 08:04:42.343 # Connection with master lost.
+16381:S 05 Apr 08:04:42.348 * Caching the disconnected master state.
+16381:S 05 Apr 08:04:42.348 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 08:04:42.349 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 08:04:42.349 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 08:04:42.349 * Master replied to PING, replication can continue...
+16381:S 05 Apr 08:04:42.350 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:26472687).
+16381:S 05 Apr 08:04:42.350 * Successful partial resynchronization with master.
+16381:S 05 Apr 08:04:42.351 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 09:05:35.287 # MASTER timeout: no data nor PING received...
+16381:S 05 Apr 09:05:35.288 # Connection with master lost.
+16381:S 05 Apr 09:05:35.288 * Caching the disconnected master state.
+16381:S 05 Apr 09:05:35.288 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 09:05:35.289 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 09:05:35.289 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 09:05:35.290 * Master replied to PING, replication can continue...
+16381:S 05 Apr 09:05:35.290 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:26934386).
+16381:S 05 Apr 09:05:35.291 * Successful partial resynchronization with master.
+16381:S 05 Apr 09:05:35.291 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 09:13:50.346 # MASTER timeout: no data nor PING received...
+16381:S 05 Apr 09:13:50.346 # Connection with master lost.
+16381:S 05 Apr 09:13:50.353 * Caching the disconnected master state.
+16381:S 05 Apr 09:13:50.354 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 09:13:50.354 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 09:13:50.355 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 09:13:50.355 * Master replied to PING, replication can continue...
+16381:S 05 Apr 09:13:50.356 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:26985276).
+16381:S 05 Apr 09:13:50.356 * Successful partial resynchronization with master.
+16381:S 05 Apr 09:13:50.357 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 09:17:57.346 # MASTER timeout: no data nor PING received...
+16381:S 05 Apr 09:17:57.347 # Connection with master lost.
+16381:S 05 Apr 09:17:57.349 * Caching the disconnected master state.
+16381:S 05 Apr 09:17:57.349 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 09:17:57.349 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 09:17:57.350 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 09:17:57.350 * Master replied to PING, replication can continue...
+16381:S 05 Apr 09:17:57.351 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:27010595).
+16381:S 05 Apr 09:17:57.351 * Successful partial resynchronization with master.
+16381:S 05 Apr 09:17:57.352 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 09:20:01.283 # Connection with master lost.
+16381:S 05 Apr 09:20:01.284 * Caching the disconnected master state.
+16381:S 05 Apr 09:20:01.347 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 09:20:01.347 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 09:20:01.349 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 09:20:01.350 * Master replied to PING, replication can continue...
+16381:S 05 Apr 09:20:01.350 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:27023461).
+16381:S 05 Apr 09:20:01.353 * Successful partial resynchronization with master.
+16381:S 05 Apr 09:20:01.353 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 09:22:05.286 # Connection with master lost.
+16381:S 05 Apr 09:22:05.286 * Caching the disconnected master state.
+16381:S 05 Apr 09:22:05.346 * Connecting to MASTER 127.0.0.1:7790
+16381:S 05 Apr 09:22:05.347 * MASTER <-> SLAVE sync started
+16381:S 05 Apr 09:22:05.349 * Non blocking connect for SYNC fired the event.
+16381:S 05 Apr 09:22:05.350 * Master replied to PING, replication can continue...
+16381:S 05 Apr 09:22:05.351 * Trying a partial resynchronization (request 6cb9c2b9140ed2809033d43bb39e647787f27f25:27036313).
+16381:S 05 Apr 09:22:05.352 * Successful partial resynchronization with master.
+16381:S 05 Apr 09:22:05.352 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+16381:S 05 Apr 09:39:47.003 # Connection with master lost.
+16381:S 05 Apr 09:39:47.004 * Caching the disconnected master state.
+16381:S 05 Apr 09:39:47.015 # User requested shutdown...
+16381:S 05 Apr 09:39:47.015 * Saving the final RDB snapshot before exiting.
+16381:S 05 Apr 09:39:47.016 * DB saved on disk
+16381:S 05 Apr 09:39:47.016 * Removing the pid file.
+16381:S 05 Apr 09:39:47.016 # Redis is now ready to exit, bye bye...

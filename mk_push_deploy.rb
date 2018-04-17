@@ -1,7 +1,7 @@
 #!/Users/break/.rvm/rubies/ruby-2.4.2/bin/ruby
 
 # usage ./mk_push_deploy.rb -s[service] -t[target] -c[local:docker] -d[work_directory]
-# example ruby mk_push_deploy.rb -s tower,msg_pusher -t udesk.test.dcc -c docker -d /Users/break/Work/Workspace/udesk/udesk_qilin_cti
+# example ruby mk_push_deploy.rb -s tower,msg_pusher -t udesk.test.dcc,udesk.cti.sipp -c docker -d /Users/break/Work/Workspace/udesk/udesk_qilin_cti
 
 require 'optparse'
 
@@ -16,8 +16,8 @@ OptionParser.new do |opts|
     options[:services] = v
   end
 
-  opts.on("-t", "--target [Target]", String, "target server") do |v|
-    options[:target] = v
+  opts.on("-t", "--targets [Target]", Array, "target servers") do |v|
+    options[:targets] = v
   end
 
   opts.on("-c", "--compile [Compile way]", [:local, :docker], "select compile way from local or docker") do |v|
@@ -72,7 +72,7 @@ def start(options)
   work_dir = options[:dir] || DefaultDir
   compile_way = options[:compile] || DefaultCompile
   services = options[:services]
-  target = options[:target]
+  targets = options[:targets]
   Dir.chdir(work_dir)
   
   case compile_way
@@ -82,9 +82,11 @@ def start(options)
     make_in_docker(services)
   end
   
-  push(services,target,work_dir)
-  restart(services,target)
-  check()
+  targets.each do |target|
+    push(services,target,work_dir)
+    restart(services,target)
+    check()
+  end
 end
 
 start(options)

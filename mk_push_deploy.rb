@@ -57,11 +57,17 @@ def push(services, target, dir)
 end
 
 def restart(services, target)
+  puts "stop monitor"
+  raise unless system("ssh #{target} \"sudo systemctl stop udesk_monitor\"")
+
   services.each do |service|
     puts "restart #{service} on #{target}"
     raise unless system("ssh #{target} \"sudo systemctl start udesk_#{service}\"")
     puts "#{service} started"
   end
+  
+  puts "start monitor"
+  raise unless system("ssh #{target} \"sudo systemctl start udesk_monitor\"")
 end
 
 def check

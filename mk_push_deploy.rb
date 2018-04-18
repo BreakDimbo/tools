@@ -1,18 +1,18 @@
 #!/Users/break/.rvm/rubies/ruby-2.4.2/bin/ruby
 
 # usage ./mk_push_deploy.rb -s[service] -t[target] -c[local:docker] -d[work_directory]
-# example ruby mk_push_deploy.rb -s tower,msg_pusher -t udesk.test.dcc,udesk.cti.sipp -c docker -d /Users/break/Work/Workspace/udesk/udesk_qilin_cti
-
+# example mk_push_deploy.rb -s tower,msg_pusher -t udesk.test.dcc,udesk.cti.sipp -c docker -d /Users/break/Work/Workspace/udesk/udesk_qilin_cti
+# use default config: mk_push_deploy.rb -s tower,msg_pusher -t udesk.test.dcc,udesk.cti.sipp
 require 'optparse'
 
 DefaultDir = "/Users/break/Work/Workspace/udesk/udesk_qilin_cti"
-DefaultCompile = :docker
+DefaultCompile = :docker # :local | :docker
 
 options = {}
 OptionParser.new do |opts|
-  opts.banner = "Usage: ./mk_push_deploy.rb -s[service] -t[target] -c[local:docker] -d[work_directory]"
+  opts.banner = "Usage: ./mk_push_deploy.rb -s[services] -t[targets] -c[local:docker] -d[work_directory]"
 
-  opts.on("-s", "--services [services]", Array, "make services") do |v|
+  opts.on("-s", "--services [Services]", Array, "make services") do |v|
     options[:services] = v
   end
 
@@ -24,7 +24,7 @@ OptionParser.new do |opts|
     options[:compile] = v
   end
 
-  opts.on("-d", "--dir [Dir]", String, "directory dir") do |v|
+  opts.on("-d", "--dir [Dir]", String, "directory of project makefile") do |v|
     options[:dir] = v
   end
 end.parse!
@@ -65,7 +65,7 @@ def restart(services, target)
     raise unless system("ssh #{target} \"sudo systemctl start udesk_#{service}\"")
     puts "#{service} started"
   end
-  
+
   puts "start monitor"
   raise unless system("ssh #{target} \"sudo systemctl start udesk_monitor\"")
 end

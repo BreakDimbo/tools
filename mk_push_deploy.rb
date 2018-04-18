@@ -47,7 +47,9 @@ def make_local(services)
   end
 end
 
-def push(services, target, dir)
+def stop_and_push(services, target, dir)
+  puts "stop monitor"
+  raise unless system("ssh #{target} \"sudo systemctl stop udesk_monitor\"")
   services.each do |service|
     puts "start push #{service} to #{target}"
     raise unless system("ssh #{target} \"sudo systemctl stop udesk_#{service}\"")
@@ -56,10 +58,7 @@ def push(services, target, dir)
   end
 end
 
-def restart(services, target)
-  puts "stop monitor"
-  raise unless system("ssh #{target} \"sudo systemctl stop udesk_monitor\"")
-
+def start(services, target)
   services.each do |service|
     puts "restart #{service} on #{target}"
     raise unless system("ssh #{target} \"sudo systemctl start udesk_#{service}\"")
@@ -89,8 +88,8 @@ def start(options)
   end
   
   targets.each do |target|
-    push(services,target,work_dir)
-    restart(services,target)
+    stop_and_push(services,target,work_dir)
+    start(services,target)
     check()
   end
 end
